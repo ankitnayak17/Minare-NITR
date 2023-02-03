@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/header-img.svg";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
-import 'animate.css';
+
 import TrackVisibility from 'react-on-screen';
 
 export const Banner = () => {
@@ -10,8 +10,8 @@ export const Banner = () => {
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
-  // const [index, setIndex] = useState();
-  const toRotate = [ "Web Developer", "Web Designer", "UI/UX Designer" ];
+  const [index, setIndex] = useState(1);
+  const toRotate = [ "Annual Geo-Mining Fest" ];
   const period = 2000;
 
   useEffect(() => {
@@ -35,15 +35,15 @@ export const Banner = () => {
 
     if (!isDeleting && updatedText === fullText) {
       setIsDeleting(true);
-      // setIndex(prevIndex => prevIndex - 1);
+      setIndex(prevIndex => prevIndex - 1);
       setDelta(period);
     } else if (isDeleting && updatedText === '') {
       setIsDeleting(false);
       setLoopNum(loopNum + 1);
-      // setIndex(1);
+      setIndex(1);
       setDelta(500);
     } else {
-      // setIndex(prevIndex => prevIndex + 1);
+      setIndex(prevIndex => prevIndex + 1);
     }
   }
 
@@ -55,9 +55,9 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Judy`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <span className="tagline">Welcome to NIT ROURKELA</span>
+                <h1>{`Hi! I'm MINARE`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Annual Geo-Mining Fest" ]'><span className="wrap">"Annual Geo-Mining Fest"</span></span></h1>
+                  <p> "Since 1979, the department of Mining Engineering of NIT Rourkela has excelled in academics with many milestones. It has acquired extraordinary achievements in R&D and consultancy services in the country's mining industry. It's a torch-bearer institute of mining across the country, which provides ample opportunities for its students to prosper in their careers with real-world problems through the rigorous work done by great teachers. Searching for the natural pearls in this life treasure hunt, the department is announcing its 9th edition of the grand geo-technical fest MINARE-2023 to set a stage for the next-gen mining engineers and geologists with the spark of knowledge with proper skills."</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
