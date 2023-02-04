@@ -22,13 +22,13 @@ function App() {
       <Skills />
       <Projects />
       <Contact /> */}
-      <Body />
+      {/* <Body /> */}
       
-        {/* <Routes>
+        <Routes>
           <Route path="/" element={<Body/>} />
           <Route path="/team" element={<Team/>} />
-        </Routes> */}
-      <Team />
+        </Routes>
+      {/* <Team /> */}
       {/* <Footer /> */}
     </div>
   );
