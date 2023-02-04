@@ -759,5 +759,34 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: white;  
 }
 
+@media screen and (max-width: 500px) {
+  .team-container-main{
+    margin: 70px 0;
+    background-position: center;
+    /* background-position: 0 70px; */
+  }
+  .team-section{
+    width: 90%;
+    margin: 4rem auto;
+  }
+  .team-card{
+    width: 85%;
+  }
+
+  .team-card-face .team-card-face-text{
+    visibility: hidden;
+  }
+  
+  .team-card-face .team-card-face-img{
+    border-radius: 50%;
+    transition: all .2s cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+  
+  .team-card-body{
+    opacity: 1;
+    visibility: visible;
+  }
+  
+}
 
 /* ---**team**--- */
