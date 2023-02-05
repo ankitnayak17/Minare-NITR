@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Minare-NITR/static/css/main.aa2ceeb9.css",
-    "main.js": "/Minare-NITR/static/js/main.18b36bbe.js",
+    "main.js": "/Minare-NITR/static/js/main.278c53cb.js",
     "static/js/787.13b41dd1.chunk.js": "/Minare-NITR/static/js/787.13b41dd1.chunk.js",
     "static/media/Anwesh~2.png": "/Minare-NITR/static/media/Anwesh~2.074024ff426b69f65a5e.png",
     "static/media/dominik-vanyi-1HEDPbH6HIE-unsplash.jpg": "/Minare-NITR/static/media/dominik-vanyi-1HEDPbH6HIE-unsplash.4106c374fd90847275c7.jpg",
@@ -37,11 +37,11 @@
     "static/media/arrow1.svg": "/Minare-NITR/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
     "static/media/nav-icon2.svg": "/Minare-NITR/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
     "main.aa2ceeb9.css.map": "/Minare-NITR/static/css/main.aa2ceeb9.css.map",
-    "main.18b36bbe.js.map": "/Minare-NITR/static/js/main.18b36bbe.js.map",
+    "main.278c53cb.js.map": "/Minare-NITR/static/js/main.278c53cb.js.map",
     "787.13b41dd1.chunk.js.map": "/Minare-NITR/static/js/787.13b41dd1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aa2ceeb9.css",
-    "static/js/main.18b36bbe.js"
+    "static/js/main.278c53cb.js"
   ]
 }
