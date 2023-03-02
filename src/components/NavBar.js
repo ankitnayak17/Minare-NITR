@@ -52,7 +52,7 @@ export const NavBar = () => {
               <NavLink to={'/team'} className={'navbar-link nav-link'} activeClassName="active">Teams</NavLink>
               {/* <NavLink to={'/#skills'} className={'navbar-link nav-link'} activeClassName="active">skills</NavLink> */}
               <HashLink to={'/#events'} onClick={() => onUpdateActiveLink('Event')} className={'navbar-link nav-link'}>Events</HashLink>
-              <NavLink to={'/Sponserships'} className={'nav-link navbar-link'} activeClassName="active">Sponsers</NavLink>
+              <NavLink to={'/sponsors'} className={'nav-link navbar-link'} activeClassName="active">Sponsors</NavLink>
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
@@ -61,7 +61,7 @@ export const NavBar = () => {
                 <a href="https://instagram.com/minare.nitr?igshid=YmMyMTA2M2Y=" rel="noreferrer" target={"_blank"}><img src={navIcon3} alt="" /></a>
               </div>
               <HashLink to='/#connect'>
-                <button className="vvd"><span>Let's Connect</span></button>
+                <button className="vvd"><span>SIGN UP</span></button>
               </HashLink>
             </span>
           </Navbar.Collapse>
