@@ -1,8 +1,10 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import Nitlogo from '../assets/img/nit logo.svg';
+
 import logo from '../assets/img/MES logo.svg';
 import logo2 from '../assets/img/Minare logo.svg';
+
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
