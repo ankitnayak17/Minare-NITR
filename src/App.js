@@ -11,6 +11,7 @@ import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 import Team from './pages/teams';
 import Body from './pages/body';
+import Sponsors from './pages/sponsors';
 
 // import { Hashroute }
 
@@ -27,7 +28,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Body/>} />
           <Route path="/team" element={<Team/>} />
+          <Route path="/sponsors" element={<Sponsors/>} />
         </Routes>
+        {/* <Sponsors></Sponsors> */}
       <Footer />
     </div>
   );

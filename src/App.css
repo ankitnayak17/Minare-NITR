@@ -83,7 +83,7 @@ p.danger {
 }
 /************ Navbar Css ************/
 nav.navbar {
-  padding: 18px 0;
+  padding: 0.1px 0;
   position: fixed;
   width: 100%;
   top: 0;
@@ -92,7 +92,7 @@ nav.navbar {
 }
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color: #121212;
+  background-color: #A307e1;
 }
 nav.navbar a.navbar-brand {
     width: 9%;
@@ -666,7 +666,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .team-section .head{
-  height: 2rem;
+  height: 1rem;
   margin: 1rem 0;
   font-size: 1.5rem;
   text-align: center;
@@ -794,3 +794,132 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /* ---**team**--- */
+
+
+
+/* sponsors */
+
+
+  
+.spon-container {
+  width: 90%;
+  margin: 115px auto 0 auto;
+}
+.spon-heading {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 50px;
+  color: white;
+}
+
+
+  
+.spon-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+
+.spon-card {
+  width: 25%;
+  /* background: #fff;
+  border: 1px solid #ccc; */
+  margin-bottom: 50px;
+  transition: 0.3s;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.spon-card0 img{
+  width: 8cm;
+  height: 8cm;
+}
+.spon-card1 img{
+  width: 10cm;
+  height: 6cm;
+}
+.spon-card2 img{
+  width: 8cm;
+  height: 8cm;
+}
+.spon-card3 img{
+  width: 10cm;
+  height: 7cm;
+}
+.spon-card4 img{
+  width: 10cm;
+  height: 5cm;
+}
+.spon-card5 img{
+  width: 10cm;
+  height: 8cm;
+}
+.spon-card4{
+  margin-top: 40px;
+}
+.spon-card3{
+  margin-left: -1.5cm;
+}
+.spon-card5{
+  margin-left: -1cm;
+  margin-top: -1cm;
+}
+.spon-card1{
+  margin-left: -1cm;
+  
+}
+
+
+/* #nav {
+  background-color: black;
+  
+} */
+.left {
+/* display: inline-block; */
+/* border: 2px solid red; */
+/* position: absolute;
+left: 60px;
+top: 20px; */
+height: 130px;
+background-color: white;
+display: flex;
+flex-wrap: wrap;
+}
+.left img{
+width: 150px;
+height: 130px;
+}
+
+.spon-card-body {
+  padding: 30px 20px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.spon-card-body .btn {
+  display: block;
+  color: #fff;
+  text-align: center;
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  margin-top: 30px;
+  text-decoration: none;
+  padding: 10px 5px;
+}
+
+.spon-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width: 1000px) {
+  .spon-card {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+
+  .spon-card {
+    width: 80%;
+  }
+}
