@@ -57,7 +57,7 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to NIT ROURKELA</span>
                 <h1>{`Hi! I'm MINARE`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Annual Geo-Mining Fest" ]'><span className="wrap">"Annual Geo-Mining Fest"</span></span></h1>
-                  <p> "Since 1979, the department of Mining Engineering of NIT Rourkela has excelled in academics with many milestones. It has acquired extraordinary achievements in R&D and consultancy services in the country's mining industry. It's a torch-bearer institute of mining across the country, which provides ample opportunities for its students to prosper in their careers."</p>
+                  <p> "Minare is the biggest geo-mining fest of Eastern India, which has proven to provide budding engineers develop their thinking capability towards the field of mining, the challenges it offers and how to overcome them."</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
