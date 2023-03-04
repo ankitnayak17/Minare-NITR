@@ -21,14 +21,16 @@ export const Footer = () => {
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
    <div className="contact-us">
+          <div className="contact-us">
         <div>
           <h2>CONTACT US</h2>
         </div>
         <div className="contact-detail">
-        <h3>Binayak</h3>
-        <span>8018848713</span>
-        <h3>Deepak</h3>
-        <span>9546637666</span>
+        <div className="contact-name">
+       <div id="name1"><h3>Deepak Anand</h3><span>9546637666</span></div> 
+        <div id="name2"><h3>Binayak Sahu</h3><span>8018848713</span></div>
+        </div>
+        
         </div>
       </div>
             
