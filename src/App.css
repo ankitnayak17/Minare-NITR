@@ -648,7 +648,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 #name1 span{
   margin-right: 250px;
 }
-
+@media screen and (max-width: 500px) {
+  .footer .contact-detail{ 
+    margin-right: 9px;
+  }
+  .contact-detail .contact-name{
+    margin-left:5px ;
+  }
+  .contact-us h2{
+    margin-left: 100px;
+  }
 
 
 /* ---**team**--- */
