@@ -1,18 +1,18 @@
-import image1 from '../images/gorai sir.jpg'
-import image2 from '../images/Anwesh~2.png'
-import image3 from '../images/karthik.jpg'
-import image4 from '../images/kustav bhaiya.jpg'
-import image5 from '../images/nigam bhaiya.png'
-import image6 from '../images/saho sir.jpg'
-import image7 from '../images/satwik bhai.jpg'
-import image8 from '../images/prabhat.png'
+import image1 from '../images/president.jpeg'
+import image2 from '../images/advisor.jpeg'
+import image3 from '../images/vice president.jpeg'
+import image4 from '../images/general sec.jpeg'
+import image5 from '../images/general sec2.jpeg'
+import image6 from '../images/technical head.jpeg'
+import image7 from '../images/literature sec.jpeg'
+import image8 from '../images/sport sec.jpeg'
 
 
 
 
 function Section1(){
     
-    var PersonData = [{'Name':'Himanshu Bhushan Sahu', 'Designation': 'President', 'Image': image6},{'Name':'Amit Kumar Gorai', 'Designation': 'Advisor', 'Image': image1, 'links': {'mail':'xyz', }}, {'Name':'Kaustuv Ray', 'Designation': 'Vice President', 'Image': image4}, {'Name':'Nigam Mohanty', 'Designation': 'Secretary', 'Image': image5}, {'Name':'Anwesh Kumar Panigrahi', 'Designation': 'Joint Secretary', 'Image': image2}, {'Name':'Satwik Kumar Sahoo', 'Designation': 'Cultural Secretary', 'Image': image7}, {'Name':'Kartik Kant Raman', 'Designation': 'Literary Secretary', 'Image': image3}, {'Name':'Prabhat Kumar Sahoo', 'Designation': 'Sports  Secretary', 'Image': image8}]
+    var PersonData = [{'Name':'Amit Kumar Gorai', 'Designation': 'President', 'Image': image1},{'Name':'R.M. Biswal', 'Designation': 'Advisor', 'Image': image2, 'links': {'mail':'xyz', }}, {'Name':'Rajesh Mishra', 'Designation': 'Vice President', 'Image': image3}, {'Name':'Deepak Anand', 'Designation': 'Secretary', 'Image': image4}, {'Name':'Binayak Sahu', 'Designation': 'Secretary', 'Image': image5}, {'Name':'Deepak Vaishay', 'Designation': 'Technical Head', 'Image': image6}, {'Name':'Agam Jeswani', 'Designation': 'Literary Secretary', 'Image': image7}, {'Name':'A.K. Rawat', 'Designation': 'Sports  Secretary', 'Image': image8}]
 
 
     function Person(){
