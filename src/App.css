@@ -628,10 +628,26 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 20px;
 }
 .footer .contact-detail{
+  display: flex;
+  flex-direction:row ;
   padding: 10px;
   margin-right: 29px;
 }
+.contact-detail .contact-name{
+  margin-left:100px ;
+}
+.contact-name #name2{
+  margin-left: 300px;
+  margin-top: -70px;
+}
 
+.contact-detail h3{
+  display: flex;
+  width: 200%;
+}
+#name1 span{
+  margin-right: 250px;
+}
 
 
 
