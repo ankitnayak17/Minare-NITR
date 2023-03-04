@@ -1,8 +1,11 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg1 from "../assets/img/workshop.jpg";
+import projImg2 from "../assets/img/bid.jpg";
+import projImg3 from "../assets/img/minquiz.jpg";
+import projImg4 from "../assets/img/case.jpg";
+import projImg5 from "../assets/img/placemantra1.jpg";
+import projImg6 from "../assets/img/Techpap.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import TrackVisibility from 'react-on-screen';
 
@@ -10,34 +13,34 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "WORKSHOPS",
-      description: "Workshops that will help to enhance the technical knowledge of the participants but also allow them to showcase their innate abilities. These workshops will be chaperoned by invited guests",
+      title: "WORKSHOP",
+      description: "Workshops are to learning as what catalyst is to a reaction. Workshops of these kinds will ignite the spark to learn with mining industry experts and their guidance will boost the interest of particpants in the mines.",
       imgUrl: projImg1,
     },
     {
-      title: "TECH PAP SHOW",
-      description: "Just as the name suggests, this involves the presentation of technical papers by the participants to put their ideas forward and show the depth of their understanding and creativity. ",
+      title: "Mine Your bid",
+      description: "This season of this event will act as a counterfeit predicament to appraise participants' monetary and rational skills. ",
       imgUrl: projImg2,
     },
     {
-      title: "MINQUIRE",
-      description: "Minquire aims to access the participants through two quizzes- one of which judges their general awareness and the other pertains to their technical erudite. It's an event that requires the participants to be of sound academic and social awareness. ",
+      title: "Min-O-Quiz",
+      description: "This event  aims to  assess the contestants academic and general awareness with the help of two quizzes. One of which judges their general awareness and the other concerns to their technical enlightenment. ",
       imgUrl: projImg3,
     },
     {
-      title: "INDUSTRIAL IGNITE",
-      description: "This event aims to gauge the technical and decision making skils of the particavipants by competing with innovative ideas and solutions. ",
-      imgUrl: projImg1,
+      title: "Case Ore-iented",
+      description: " A speculative situation will be presented about the mining sector. It involves brain stroming analysis and identifying of issues involved and contemplating over the necessary and idiosyncratic solutions. ",
+      imgUrl: projImg4,
     },
     {
       title: "PLACE'MANTRA",
-      description: "This event presents the participants with an exquisite platform to gauge their logical and technical skills in the form of campus placement-esque scenarios.",
-      imgUrl: projImg2,
+      description: "This event presents the participants with an exclusive platform to calibrate their logical and technical skills in the form of real time placement scenarios.",
+      imgUrl: projImg5,
     },
     {
-      title: "BID TO WIN 2.0",
-      description: "The second season of this event will act as a counterfeit predicament to evaluate participants' monetary and logical skills.",
-      imgUrl: projImg3,
+      title: "TechExpo",
+      description: "It involves the presentation of technical papers by respective Contenstant to put their notion forward and show the depth of their knowledge and creativity in mining.",
+      imgUrl: projImg6,
     },
   ];
 
