@@ -20,20 +20,19 @@ export const Footer = () => {
             <img src={ph2} alt="Icon" />
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
-   <div className="contact-us">
-          <div className="contact-us">
-        <div>
-          <h2>CONTACT US</h2>
-        </div>
-        <div className="contact-detail">
-        <div className="contact-name">
-       <div id="name1"><h3>Deepak Anand</h3><span>9546637666</span></div> 
-        <div id="name2"><h3>Binayak Sahu</h3><span>8018848713</span></div>
-        </div>
-        
-        </div>
-      </div>
-            
+            <div className="contact-us">
+              <div className="contact-us">
+                <div>
+                  <h2>CONTACT US</h2>
+                </div>
+                <div className="contact-detail">
+                  <div className="contact-name">
+                    <div id="name1"><h3>Deepak Anand</h3><span>9546637666</span></div>
+                    <div id="name2"><h3>Binayak Sahu</h3><span>8018848713</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </Col>
         </Row>
       </Container>
