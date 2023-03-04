@@ -14,17 +14,23 @@ export const Footer = () => {
       <Container>
         <Row className="align-items-center">
           {/* <MailchimpForm /> */}
-          <Col size={12} sm={6}>
+          <Col size={8} sm={5}>
             <img src={Nitlogo} alt="Icon" />
             <img src={ph1} alt="Icon" />
             <img src={ph2} alt="Icon" />
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
-            <div className="social-icon">
-              <a href="https://www.linkedin.com/company/mining-engineering-society-nit-rourkela/"><img src={navIcon1} alt="Icon" /></a>
-              <a href="https://www.facebook.com/minare.nitr/"><img src={navIcon2} alt="Icon" /></a>
-              <a href="https://instagram.com/minare.nitr?igshid=YmMyMTA2M2Y="><img src={navIcon3} alt="Icon" /></a>
-            </div>
+   <div className="contact-us">
+        <div>
+          <h2>CONTACT US</h2>
+        </div>
+        <div className="contact-detail">
+        <h3>Binayak</h3>
+        <span>8018848713</span>
+        <h3>Deepak</h3>
+        <span>9546637666</span>
+        </div>
+      </div>
             
           </Col>
         </Row>
