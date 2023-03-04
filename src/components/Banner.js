@@ -55,7 +55,7 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <span className="tagline">Welcome to NIT ROURKELA</span>
+                <span className="tagline">Welcome everyone, the ninth iteration of the major geo-mining fest, MINARE'23, is here.</span>
                
                   <p> "Minare is the biggest geo-mining fest of Eastern India, which has proven to provide budding engineers develop their thinking capability towards the field of mining, the challenges it offers and how to overcome them."</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
