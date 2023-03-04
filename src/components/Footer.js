@@ -14,17 +14,17 @@ export const Footer = () => {
       <Container>
         <Row className="align-items-center">
           {/* <MailchimpForm /> */}
-          <Col size={8} sm={5}>
+          <Col className="logo-container" size={8} sm={5}>
             <img src={Nitlogo} alt="Icon" />
             <img src={ph1} alt="Icon" />
             <img src={ph2} alt="Icon" />
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
-            <div className="contact-us">
+            {/* <div className="contact-us"> */}
               <div className="contact-us">
-                <div>
-                  <h2>CONTACT US</h2>
-                </div>
+                {/* <div> */}
+                  {/* <h2>CONTACT US</h2> */}
+                {/* </div> */}
                 <div className="contact-detail">
                   <div className="contact-name">
                     <div id="name1"><h3>Deepak Anand</h3><span>9546637666</span></div>
@@ -32,7 +32,7 @@ export const Footer = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            {/* </div> */}
           </Col>
         </Row>
       </Container>

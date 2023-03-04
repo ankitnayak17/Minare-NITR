@@ -232,6 +232,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
 }
 
+
+@media screen and (max-width: 500px) {
+  
+  nav.navbar a.navbar-brand {
+    width: 18%;
+  }
+}
+
 /************ Banner Css ************/
 .banner {
   margin-top: 0;
@@ -254,20 +262,21 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner h1 {
   font-size: 65px;
   font-weight: 700;
+  color: #000;
   letter-spacing: 0.8px;
   line-height: 1;
   margin-bottom: 20px;
   display: block;
 }
 .banner p {
-  color: #B8B8B8;
+  color: #000;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 96%;
 }
 .banner button {
-  color: #fff;
+  color: #000;
   font-weight: 700;
   font-size: 20px;
   margin-top: 60px;
@@ -650,13 +659,44 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 @media screen and (max-width: 500px) {
   .footer .contact-detail{ 
-    margin-right: 9px;
+    margin: 0;
+    padding: 0 4px;
   }
   .contact-detail .contact-name{
-    margin-left:5px ;
+    margin: 0px;
+    width: 100%;
+  }
+  
+  .contact-detail .contact-name div{
+    margin: 0 0.4rem !important;
+    float: left;
+    width: calc(48% - 0.4rem);
+    font-size: 1rem;
+  }
+  
+  .contact-detail .contact-name div h3{
+    /* width: 50%; */
+    justify-content: center;
+    width: 100%;
+  }
+  .contact-detail .contact-name div span{
+    margin: 0 !important;
+  }
+
+
+  .footer .contact-us{
+    width: 100%;
+  }
+  .logo-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .logo-container img{
+    margin: 0 auto;
   }
   .contact-us h2{
-    margin-left: 100px;
+    margin: 0 auto;
   }
 }
 
