@@ -15,31 +15,37 @@ export const Projects = () => {
     {
       title: "WORKSHOP",
       description: "Workshops are to learning as what catalyst is to a reaction. Workshops of these kinds will ignite the spark to learn with mining industry experts and their guidance will boost the interest of particpants in the mines.",
+      button: "Register here",
       imgUrl: projImg1,
     },
     {
       title: "Mine Your bid",
       description: "This season of this event will act as a counterfeit predicament to appraise participants' monetary and rational skills. ",
+      button: "Register here",
       imgUrl: projImg2,
     },
     {
       title: "Min-O-Quiz",
       description: "This event  aims to  assess the contestants academic and general awareness with the help of two quizzes. One of which judges their general awareness and the other concerns to their technical enlightenment. ",
+      button: "Register here",
       imgUrl: projImg3,
     },
     {
       title: "Case Ore-iented",
       description: " A speculative situation will be presented about the mining sector. It involves brain stroming analysis and identifying of issues involved and contemplating over the necessary and idiosyncratic solutions. ",
+      button: "Register here",
       imgUrl: projImg4,
     },
     {
       title: "PLACE'MANTRA",
       description: "This event presents the participants with an exclusive platform to calibrate their logical and technical skills in the form of real time placement scenarios.",
+      button: "Register here",
       imgUrl: projImg5,
     },
     {
       title: "TechExpo",
       description: "It involves the presentation of technical papers by respective Contenstant to put their notion forward and show the depth of their knowledge and creativity in mining.",
+      button: "Register here",
       imgUrl: projImg6,
     },
   ];
