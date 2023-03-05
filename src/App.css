@@ -468,6 +468,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 15px;
   letter-spacing: 0.8px;
 }
+.proj-txtx button {
+  display: block;
+  margin: 20px 0 0 120px;
+   background: linear-gradient(90.21deg, #670e43 -5.91%, #4420e5 111.58%);
+   border: none;
+   border-radius: 20px;
+}
 .background-image-right {
   top: 20%;
   position: absolute;
