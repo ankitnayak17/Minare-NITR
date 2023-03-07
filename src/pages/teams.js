@@ -6,6 +6,7 @@ import image5 from '../images/general sec2.jpeg'
 import image6 from '../images/technical head.jpeg'
 import image7 from '../images/literature sec.jpeg'
 import image8 from '../images/sport sec.jpeg'
+import GoToTop from '../GoToTop'
 
 
 
@@ -70,7 +71,9 @@ function Section1(){
     return (
         <div className="team-section">
             <div className='head'>
-                Organising Team
+                <h2>
+                    Organising Team
+                </h2>
             </div>
             <div className='body'>
                 <Person></Person>
@@ -93,6 +96,7 @@ function Team(){
                 <Section1></Section1>
                 <Section1></Section1> */}
             </div>
+            <GoToTop />
         </div>
     )
 }

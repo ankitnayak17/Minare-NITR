@@ -5,6 +5,7 @@ import image3 from "../assets/img/spon/moil.png";
 import image4 from "../assets/img/spon/omclogo.png";
 import image5 from "../assets/img/spon/rc_rungta_group.png";
 import image6 from "../assets/img/spon/handshake.jpg";
+import GoToTop from "../GoToTop";
 
 function Section1() {
   var companies = [
@@ -69,16 +70,13 @@ function Section1() {
 
 function Sponsors() {
   return (
-    // <div className="spon-row">
-    //   <Section1></Section1>
-    // </div>
-    <div className="spon-n-container-main">
+    <div className="">
 
       <div className="spon-n-container">
         <div className="spon-n-heading">
           <h1 className="spon-n-title">FEATURED SPONSORS</h1>
           <div className="spon-n-content">
-            <div className="spon-n-head">Over the past years Minare has had the privilege to have hosted a number of sponsors which provided a very entertaining experience to our visitors as well as the brand. The crowd engagement, media exposure, sampling and brand building opportunities offered at Minare are unparalleled.</div>
+            <div className="spon-n-head">We take great pride to announce that we have with us the mentioned as our partner for Minare. They are heartily welcomed here.</div>
             <div className="spon-n-imd">
 
               <img src={image6} alt="" />
@@ -128,6 +126,7 @@ function Sponsors() {
           </div>
         </div>
       </div>
+      <GoToTop />
     </div>
   );
 }
