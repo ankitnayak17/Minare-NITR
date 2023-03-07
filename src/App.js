@@ -6,7 +6,6 @@ import { Footer } from "./components/Footer";
 import Team from './pages/teams';
 import Body from './pages/body';
 import Sponsors from './pages/sponsors';
-import 
 
 // import { Hashroute }
 
