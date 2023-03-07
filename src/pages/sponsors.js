@@ -29,6 +29,7 @@ function Section1() {
     { Name: "imfa", Image: image1, Link: "https://www.imfa.in" },
   ];
 
+  
   function Companies() {
     var l = [];
     companies.forEach((element, i) => {
@@ -68,10 +69,11 @@ function Section1() {
   )
 }
 
+window.scrollTo(0,0)
 function Sponsors() {
   return (
-    <div className="">
-
+    // <div className="">
+    <>
       <div className="spon-n-container">
         <div className="spon-n-heading">
           <h1 className="spon-n-title">FEATURED SPONSORS</h1>
@@ -127,7 +129,7 @@ function Sponsors() {
         </div>
       </div>
       <GoToTop />
-    </div>
+    </>
   );
 }
 
