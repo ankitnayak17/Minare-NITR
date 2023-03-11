@@ -4,8 +4,8 @@ import meter3 from "../assets/img/wortkshop.jpeg";
 // import meter4 from "../assets/img/placemantra.jpg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import arrow1 from "../assets/img/arrow1.svg";
-import arrow2 from "../assets/img/arrow2.svg";
+// import arrow1 from "../assets/img/arrow1.svg";
+// import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png"
 
 export const Skills = () => {
@@ -39,15 +39,15 @@ export const Skills = () => {
                        
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1}  alt="Image" />
+                                <img src={meter1}  alt={meter1} />
                                 
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
+                                <img src={meter2} alt={meter2} />
                                 
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
+                                <img src={meter3} alt={meter3} />
                                 
                             </div>
                             {/* <div className="item">
@@ -59,7 +59,7 @@ export const Skills = () => {
                 </div>
             </div>
         </div>
-        <img className="background-image-left" src={colorSharp} alt="Image" />
+        <img className="background-image-left" src={colorSharp} alt={colorSharp} />
     </section>
   )
 }
