@@ -92,7 +92,7 @@ nav.navbar {
 }
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color: #A307e1;
+  background-color: rgb(83, 54, 54);
 }
 nav.navbar a.navbar-brand {
     width: 9%;
@@ -872,6 +872,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
  
 .team-card-body a{
   color: white;  
+}
+
+.imgButton{
+  width: 30px;
+  height: 30px;
+
 }
 
 @media screen and (max-width: 500px) {

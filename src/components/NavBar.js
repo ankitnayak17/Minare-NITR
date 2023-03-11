@@ -92,10 +92,10 @@ export const NavBar = () => {
                 <a href="https://instagram.com/minare.nitr?igshid=YmMyMTA2M2Y=" rel="noreferrer" target={"_blank"}><img src={navIcon3} alt="" /></a>
               </div>
               <HashLink to='/#connect'>
-                <button className="vvd">
-                  <span>
-                    <img src="../assets/img/question.png" width="50px" height="50px" alt="" />
-                  </span>
+                <button className="vvd" width="20px" height="20px">
+                  <div>
+                    <img className="imgButton" src="https://res.cloudinary.com/dlvmyc0x3/image/upload/v1678542770/question_qmytqc.png" height="20px" alt="" />
+                  </div>
                   </button>
               </HashLink>
             </span>
