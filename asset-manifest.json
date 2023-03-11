@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Minare-NITR/static/css/main.4e5d1288.css",
-    "main.js": "/Minare-NITR/static/js/main.202b0894.js",
+    "main.js": "/Minare-NITR/static/js/main.df44f4c6.js",
     "static/js/787.13b41dd1.chunk.js": "/Minare-NITR/static/js/787.13b41dd1.chunk.js",
     "static/media/Anurag Minare.jpg": "/Minare-NITR/static/media/Anurag Minare.97953a701306e2209a7e.jpg",
     "static/media/color-sharp.png": "/Minare-NITR/static/media/color-sharp.bea361cfef80fefc2d1e.png",
@@ -45,15 +45,13 @@
     "static/media/logo.svg": "/Minare-NITR/static/media/logo.eaf3c0bc058e0ed6471ba20dc0af6da2.svg",
     "index.html": "/Minare-NITR/index.html",
     "static/media/nav-icon1.svg": "/Minare-NITR/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
-    "static/media/arrow2.svg": "/Minare-NITR/static/media/arrow2.3d9522b6fd8f2464b7200ebf2c1bb09a.svg",
-    "static/media/arrow1.svg": "/Minare-NITR/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
     "static/media/nav-icon2.svg": "/Minare-NITR/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
     "main.4e5d1288.css.map": "/Minare-NITR/static/css/main.4e5d1288.css.map",
-    "main.202b0894.js.map": "/Minare-NITR/static/js/main.202b0894.js.map",
+    "main.df44f4c6.js.map": "/Minare-NITR/static/js/main.df44f4c6.js.map",
     "787.13b41dd1.chunk.js.map": "/Minare-NITR/static/js/787.13b41dd1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4e5d1288.css",
-    "static/js/main.202b0894.js"
+    "static/js/main.df44f4c6.js"
   ]
 }
