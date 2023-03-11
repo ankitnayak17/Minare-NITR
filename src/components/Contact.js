@@ -40,9 +40,9 @@ export const Contact = () => {
     // console.log(Query_Form.current)
     emailjs.sendForm('service_0d2x19y', 'template_vjk66cs', Query_Form.current, '3ulKW2sQS59bxBeZh').then((result)=>{
       setStatus({ succes: true, message: 'Message sent successfully'});
-      console.log(result)
+      // console.log(result)
     }, (error)=>{
-      console.log(error)
+      // console.log(error)
       setStatus({ succes: false, message: 'We are sorry for the inconvinience,Message could\'t be sent at this moment. please try again later.'});
     })
     setButtonText("Send");
