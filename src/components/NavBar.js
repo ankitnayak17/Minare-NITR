@@ -34,12 +34,41 @@ export const NavBar = () => {
     setActiveLink(value);
   }
 
+  const [expanded, setExpanded] = useState(false);
+
+
+
+      function Navstatetoggle(){
+        setExpanded(!expanded)
+      }
+
+  // useEffect(()=>{
+  //     function Navstatetoggle(){
+  //       setExpanded(!expanded)
+  //       console.log(expanded)
+  //       console.log('tgl')
+  //     }
+  //   })
+  
+  function closeNav(){
+    console.log('sel')
+    setExpanded(false)
+  }
+
+  // function closeNav() {
+  //   this.setState({ navExpanded: false });
+  // };
+
   return (
-      <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
+      <Navbar onToggle={Navstatetoggle} expanded={expanded}
+                 expand="md" className={`${scrolled ? "scrolled" : ""}  ${expanded? 'nav-expanded':'nav-collapsed'}`}>
         <Container>
-          <Navbar.Brand href="/">
-            <img src={logo} alt="Logo" />
-            <img src={logo2}  alt="Logo" />
+          <Navbar.Brand href="#/">
+            {/* <NavLink to={'/'}> */}
+              <img src={logo} alt="Logo" />
+              <img src={logo2}  alt="Logo" />
+            {/* </NavLink> */}
+              
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
@@ -50,11 +79,11 @@ export const NavBar = () => {
               <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
               <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link> */}
               {/* <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link> */}
-              <NavLink to={'/'} className={'navbar-link nav-link'} activeClassName="active">Home</NavLink>
-              <NavLink to={'/team'} className={'navbar-link nav-link'} activeClassName="active">Teams</NavLink>
+              <NavLink to={'/'} onClick={closeNav} className={'navbar-link nav-link'} activeClassName="active">Home</NavLink>
+              <NavLink to={'/team'} onClick={closeNav} className={'navbar-link nav-link'} activeClassName="active">Teams</NavLink>
               {/* <NavLink to={'/#skills'} className={'navbar-link nav-link'} activeClassName="active">skills</NavLink> */}
-              <HashLink to={'/#events'} onClick={() => onUpdateActiveLink('Event')} className={'navbar-link nav-link'}>Events</HashLink>
-              <NavLink to={'/sponsors'} className={'nav-link navbar-link'} activeClassName="active">Sponsors</NavLink>
+              <HashLink to={'/#events'} onClick={() => {onUpdateActiveLink('Event'); closeNav()}} className={'navbar-link nav-link'}>Events</HashLink>
+              <NavLink to={'/sponsors'} onClick={closeNav} className={'nav-link navbar-link'} activeClassName="active">Sponsors</NavLink>
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">

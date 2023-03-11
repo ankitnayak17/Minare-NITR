@@ -30,6 +30,7 @@ function Section1() {
     { Name: "imfa", Image: image1, Link: "https://www.imfa.in" },
   ];
 
+  
   function Companies() {
     var l = [];
     companies.forEach((element, i) => {
@@ -73,6 +74,7 @@ function Section1() {
   );
 }
 
+window.scrollTo(0,0)
 function Sponsors() {
   return (
     <div className="bannerSponsor">
