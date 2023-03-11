@@ -4,6 +4,7 @@ import headerImg from "../assets/img/pngwing.com.png";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 
 import TrackVisibility from 'react-on-screen';
+import { redirect } from "react-router-dom";
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -58,7 +59,9 @@ export const Banner = () => {
                 <span className="tagline">Welcome everyone, the ninth iteration of the major geo-mining fest, MINARE'23, is here.</span>
                
                   <p> "Minare is the biggest geo-mining fest of Eastern India, which has proven to provide budding engineers develop their thinking capability towards the field of mining, the challenges it offers and how to overcome them."</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  <a href="https://drive.google.com/file/d/18EWzE13DXQ5mF_BBlJvc2aLprijNHl5O/view?usp=drivesdk">          
+                  <button onClick={() => console.log("first")}>Learn More<ArrowRightCircle size={25} /></button>
+                  </a>
               </div>}
             </TrackVisibility>
           </Col>

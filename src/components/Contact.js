@@ -12,7 +12,7 @@ export const Contact = () => {
     message: ''
   }
   const [formDetails, setFormDetails] = useState(formInitialDetails);
-  const [buttonText, setButtonText] = useState('Send');
+  const [buttonText, setButtonText] = useState('Submit');
   const [status, setStatus] = useState({});
 
   const onFormUpdate = (category, value) => {
@@ -57,7 +57,7 @@ export const Contact = () => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <h2>Register Here</h2>
+                <h2>Drop Your Queries</h2>
                 <form onSubmit={handleSubmit}>
                   <Row>
                     <Col size={12} sm={6} className="px-1">
@@ -70,10 +70,10 @@ export const Contact = () => {
                       <input type="email" value={formDetails.email} placeholder="Email Address" onChange={(e) => onFormUpdate('email', e.target.value)} />
                     </Col>
                     <Col size={12} sm={6} className="px-1">
-                      <input type="tel" value={formDetails.phone} placeholder="Phone No." onChange={(e) => onFormUpdate('phone', e.target.value)}/>
+                      <input type="tel" value={formDetails.phone} placeholder="WhatsApp No." onChange={(e) => onFormUpdate('phone', e.target.value)}/>
                     </Col>
                     <Col size={12} className="px-1">
-                      <textarea rows="2" value={formDetails.message} placeholder="Whatsapp N0." onChange={(e) => onFormUpdate('message', e.target.value)}></textarea>
+                      <textarea rows="2" value={formDetails.message} placeholder="Type your Query/Message here..." onChange={(e) => onFormUpdate('message', e.target.value)}></textarea>
                       <button type="submit"><span>{buttonText}</span></button>
                     </Col>
                     {

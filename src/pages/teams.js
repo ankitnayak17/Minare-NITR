@@ -1,11 +1,13 @@
 import image1 from '../images/president.jpeg'
 import image2 from '../images/advisor.jpeg'
-import image3 from '../images/vice president.jpeg'
+import image3 from '../images/vice president.jpg'
 import image4 from '../images/general sec.jpeg'
 import image5 from '../images/general sec2.jpeg'
 import image6 from '../images/technical head.jpeg'
 import image7 from '../images/literature sec.jpeg'
 import image8 from '../images/sport sec.jpeg'
+import image9 from '../images/Anurag Minare.jpg'
+import image10 from '../images/Aporanta minare.jpg'
 import GoToTop from '../GoToTop'
 
 
@@ -13,7 +15,7 @@ import GoToTop from '../GoToTop'
 
 function Section1(){
     
-    var PersonData = [{'Name':'Amit Kumar Gorai', 'Designation': 'President', 'Image': image1},{'Name':'R.M. Biswal', 'Designation': 'Advisor', 'Image': image2, 'links': {'mail':'xyz', }}, {'Name':'Rajesh Mishra', 'Designation': 'Vice President', 'Image': image3}, {'Name':'Deepak Anand', 'Designation': 'Secretary', 'Image': image4}, {'Name':'Binayak Sahu', 'Designation': 'Secretary', 'Image': image5}, {'Name':'Deepak Vaishay', 'Designation': 'Technical Head', 'Image': image6}, {'Name':'Agam Jeswani', 'Designation': 'Literary Secretary', 'Image': image7}, {'Name':'A.K. Rawat', 'Designation': 'Sports  Secretary', 'Image': image8}]
+    var PersonData = [{'Name':'Amit Kumar Gorai', 'Designation': 'President', 'Image': image1},{'Name':'R.M. Biswal', 'Designation': 'Advisor', 'Image': image2}, {'Name':'Rajesh Mishra', 'Designation': 'Vice President', 'Image': image3}, {'Name':'Deepak Anand', 'Designation': 'Secretary', 'Image': image4}, {'Name':'Binayak Sahu', 'Designation': 'Secretary', 'Image': image5}, {'Name':'Deepak Vaishay', 'Designation': 'Technical Head', 'Image': image6}, {'Name':'Aporanta Mukhopadhyay', 'Designation': 'Cultural Secretary', 'Image': image10}, {'Name':'Agam Jeswani', 'Designation': 'Literary Secretary', 'Image': image7}, {'Name':'A.K. Rawat', 'Designation': 'Sports  Secretary', 'Image': image8}, {'Name':'Anurag Roy', 'Designation': 'General Secretary', 'Image': image9}]
 
 
     function Person(){
@@ -69,6 +71,9 @@ function Section1(){
     }
     
     return (
+        <>
+        <div className="bannerSponsor">
+
         <div className="team-section">
             <div className='head'>
                 <h2>
@@ -79,6 +84,8 @@ function Section1(){
                 <Person></Person>
             </div>
         </div>
+        </div>
+        </>
     )
 } 
 

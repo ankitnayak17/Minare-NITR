@@ -63,7 +63,11 @@ export const NavBar = () => {
                 <a href="https://instagram.com/minare.nitr?igshid=YmMyMTA2M2Y=" rel="noreferrer" target={"_blank"}><img src={navIcon3} alt="" /></a>
               </div>
               <HashLink to='/#connect'>
-                <button className="vvd"><span>SIGN UP</span></button>
+                <button className="vvd">
+                  <span>
+                    <img src="../assets/img/question.png" width="50px" height="50px" alt="" />
+                  </span>
+                  </button>
               </HashLink>
             </span>
           </Navbar.Collapse>
