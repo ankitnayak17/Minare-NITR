@@ -10,8 +10,8 @@
 	font-weight: 500;
 }
 @font-face {
-	font-family: Centra;
-	src: url('./assets/font/CentraNo2-Book.ttf');
+	font-family: Outfit;
+	src: url('./assets/font/Outfit-Regular.ttf');
 	font-weight: 400;
 }
 
@@ -33,7 +33,7 @@ body {
   position: relative;
   background-color: #121212 !important;
   color: #fff !important;
-  font-family: 'Centra', sans-serif !important;
+  font-family: 'Outfit', sans-serif !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
