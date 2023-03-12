@@ -10,6 +10,7 @@ import { NavLink } from "react-router-dom";
 
 export const NavBar = () => {
 
+  // eslint-disable-next-line
   const [activeLink, setActiveLink] = useState('home');
   const [scrolled, setScrolled] = useState(false);
 
