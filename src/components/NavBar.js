@@ -94,7 +94,7 @@ export const NavBar = () => {
               <HashLink to='/#connect'>
                 <button className="vvd" width="20px" height="20px">
                   <div>
-                    <img className="imgButton" src="https://res.cloudinary.com/dlvmyc0x3/image/upload/v1678542770/question_qmytqc.png" height="20px" alt="" />
+                    <img className="imgButton" src="https://res.cloudinary.com/dlvmyc0x3/image/upload/v1678542770/question_qmytqc.png" height="20px" alt="" onClick={closeNav} />
                   </div>
                   </button>
               </HashLink>
