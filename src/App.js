@@ -10,6 +10,8 @@ import Sponsors from './pages/sponsors';
 // import { Hashroute }
 
 function App() {
+
+
   return (
     <div className="App">
       <NavBar />
@@ -29,5 +31,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;
