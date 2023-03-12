@@ -746,7 +746,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .team-container-main{
-  margin: 110px 0 0 0;
+  padding: 110px 0 0 0;
   /* height: calc(100% - 120px); */
   /* background: url('images/WhatsApp\ Image\ 2023-02-04\ at\ 18.10.23.jpg'); */
  background: linear-gradient(87.4deg, rgb(255, 241, 165) 1.9%, rgb(200, 125, 76) 49.7%, rgb(83, 54, 54) 100.5%);
@@ -882,8 +882,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 @media screen and (max-width: 500px) {
 
-  
-  
   .navbar.nav-expanded + .team-container-main{
     margin-top: 280px;
   }
