@@ -1,7 +1,7 @@
 /************ Custom Font ************/
 @font-face {
-	font-family: Centra;
-	src: url('./assets/font/CentraNo2-Bold.ttf');
+	font-family: NanumGothic;
+	src: url('./assets/font/NanumGothic-Bold.ttf');
 	font-weight: 700;
 }
 @font-face {
@@ -10,8 +10,8 @@
 	font-weight: 500;
 }
 @font-face {
-	font-family: Centra;
-	src: url('./assets/font/CentraNo2-Book.ttf');
+	font-family: Outfit;
+	src: url('./assets/font/Outfit-Regular.ttf');
 	font-weight: 400;
 }
 
@@ -33,7 +33,7 @@ body {
   position: relative;
   background-color: #121212 !important;
   color: #fff !important;
-  font-family: 'Centra', sans-serif !important;
+  font-family: 'Outfit', sans-serif !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -1051,6 +1051,10 @@ height: 130px;
 
 
 /* spon new */
+
+.navbar.nav-expanded + .spon-n-container{
+  margin-top: 280px;
+}
 
 .spon-n-container-main{
   background: rgb(228,192,97);
