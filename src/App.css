@@ -1052,6 +1052,10 @@ height: 130px;
 
 /* spon new */
 
+.navbar.nav-expanded + .spon-n-container{
+  margin-top: 280px;
+}
+
 .spon-n-container-main{
   background: rgb(228,192,97);
   background: -moz-linear-gradient(90deg, rgba(228,192,97,1) 100%, rgba(205,131,26,1) 100%, rgba(74,74,0,1) 100%);
