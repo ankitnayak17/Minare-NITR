@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/pngwing.com.png";
+import headerImg from "../assets/img/MININGLOGO.png";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 
 import TrackVisibility from 'react-on-screen';
@@ -63,13 +63,13 @@ export const Banner = () => {
                   {/* <span> */}
                   <div style={{'display': 'flex', 'justify-content':'space-between'}}>
                   <a href="https://drive.google.com/file/d/18EWzE13DXQ5mF_BBlJvc2aLprijNHl5O/view?usp=drivesdk" target="_blank" rel="noreferrer">          
-                  <button>Learn More<ArrowRightCircle size={25} /></button>
+                  <button>Event Brochure<ArrowRightCircle size={25} /></button>
                   </a>
                   {/* </span>
                   <span> */}
 
                   <a href="https://drive.google.com/file/d/18EWzE13DXQ5mF_BBlJvc2aLprijNHl5O/view?usp=drivesdk" target="_blank" rel="noreferrer">          
-                  <button>Learn More<ArrowRightCircle size={25} /></button>
+                  <button>Sponsors Brochure<ArrowRightCircle size={25} /></button>
                   </a>
                   {/* </span> */}
                   </div>
