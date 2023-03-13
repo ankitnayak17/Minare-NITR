@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import logo2 from '../assets/img/Minare logo.svg';
+import logo from '../assets/img/MES logo.svg';
 
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
@@ -63,6 +64,8 @@ export const NavBar = () => {
         <Container>
           <Navbar.Brand href="#/">
             {/* <NavLink to={'/'}> */}
+            <img src={logo} alt="Logo" />
+            {/* <img src={logo2}  alt="Logo" /> */}
               <img src={logo2}  alt="Logo" />
             {/* </NavLink> */}
               

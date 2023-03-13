@@ -77,7 +77,7 @@ function Section1() {
 window.scrollTo(0,0)
 function Sponsors() {
   return (
-    <div className="bannerSponsor">
+     <div className="spon-n-container-main">
       <div className="spon-n-container">
         <div className="spon-n-heading">
           <h1 className="spon-n-title">PAST SPONSORS</h1>
