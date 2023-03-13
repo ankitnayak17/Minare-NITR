@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/Minare-NITR/static/css/main.c5f5528c.css",
-    "main.js": "/Minare-NITR/static/js/main.567c758f.js",
+    "main.css": "/Minare-NITR/static/css/main.cdd4182a.css",
+    "main.js": "/Minare-NITR/static/js/main.e4f87934.js",
     "static/js/787.13b41dd1.chunk.js": "/Minare-NITR/static/js/787.13b41dd1.chunk.js",
     "static/media/NanumGothic-Bold.ttf": "/Minare-NITR/static/media/NanumGothic-Bold.6499af72b1d61fe8269d.ttf",
+    "static/media/MININGLOGO.png": "/Minare-NITR/static/media/MININGLOGO.748ec68e05bbc3289ba3.png",
     "static/media/Anurag Minare.jpg": "/Minare-NITR/static/media/Anurag Minare.97953a701306e2209a7e.jpg",
     "static/media/color-sharp.png": "/Minare-NITR/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/Minare-NITR/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
@@ -13,7 +14,6 @@
     "static/media/minquiz.jpg": "/Minare-NITR/static/media/minquiz.9b28a020e5e721f8f258.jpg",
     "static/media/bid.jpg": "/Minare-NITR/static/media/bid.fb188523971ed75c615e.jpg",
     "static/media/workshop.jpg": "/Minare-NITR/static/media/workshop.a9f3fade99fc0cbe60ae.jpg",
-    "static/media/pngwing.com.png": "/Minare-NITR/static/media/pngwing.com.362d67d4417829ff5bb3.png",
     "static/media/wortkshop.jpeg": "/Minare-NITR/static/media/wortkshop.bd058dd6853d926c6072.jpeg",
     "static/media/placemantra1.jpg": "/Minare-NITR/static/media/placemantra1.c6c4ca23402847dc6710.jpg",
     "static/media/general sec.jpeg": "/Minare-NITR/static/media/general sec.8291f16cd672e2c7f65c.jpeg",
@@ -23,7 +23,6 @@
     "static/media/general sec2.jpeg": "/Minare-NITR/static/media/general sec2.5f68ef1f1a14c4d9a47b.jpeg",
     "static/media/literature sec.jpeg": "/Minare-NITR/static/media/literature sec.bb058e9b3dc8677bd0cb.jpeg",
     "static/media/CentraNo2-Medium.ttf": "/Minare-NITR/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
-    "static/media/footer-bg.png": "/Minare-NITR/static/media/footer-bg.7bd67c0f73571d0acc02.png",
     "static/media/omclogo.png": "/Minare-NITR/static/media/omclogo.a56d81e7240017bce01e.png",
     "static/media/sport sec.jpeg": "/Minare-NITR/static/media/sport sec.5e3473d1335170434e23.jpeg",
     "static/media/tech.jpeg": "/Minare-NITR/static/media/tech.17f44b9721552532384c.jpeg",
@@ -41,17 +40,17 @@
     "static/media/handshake.jpg": "/Minare-NITR/static/media/handshake.eb9f4623d8cd475b21b4.jpg",
     "static/media/revicons.woff": "/Minare-NITR/static/media/revicons.e8746a624ed098489406.woff",
     "static/media/Minare logo.svg": "/Minare-NITR/static/media/Minare logo.6fa38bc13d590bdc429200818d4c0b0f.svg",
-    "static/media/nav-icon3.svg": "/Minare-NITR/static/media/nav-icon3.08b285abb8e118b52637efa5d65c5367.svg",
-    "static/media/logo.svg": "/Minare-NITR/static/media/logo.eaf3c0bc058e0ed6471ba20dc0af6da2.svg",
+    "static/media/nav-icon3.svg": "/Minare-NITR/static/media/nav-icon3.72cef43bc93b04f52e29f022ef720f8b.svg",
+    "static/media/logo.svg": "/Minare-NITR/static/media/logo.3c6c479cfa1d154dbfccd4d5f91320f4.svg",
     "index.html": "/Minare-NITR/index.html",
-    "static/media/nav-icon1.svg": "/Minare-NITR/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
-    "static/media/nav-icon2.svg": "/Minare-NITR/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
-    "main.c5f5528c.css.map": "/Minare-NITR/static/css/main.c5f5528c.css.map",
-    "main.567c758f.js.map": "/Minare-NITR/static/js/main.567c758f.js.map",
+    "static/media/nav-icon1.svg": "/Minare-NITR/static/media/nav-icon1.dff40ae802524d8fc0cbce3f312abe4f.svg",
+    "static/media/nav-icon2.svg": "/Minare-NITR/static/media/nav-icon2.a39f0e5e47e442dafcc5c9c320f19f6f.svg",
+    "main.cdd4182a.css.map": "/Minare-NITR/static/css/main.cdd4182a.css.map",
+    "main.e4f87934.js.map": "/Minare-NITR/static/js/main.e4f87934.js.map",
     "787.13b41dd1.chunk.js.map": "/Minare-NITR/static/js/787.13b41dd1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5f5528c.css",
-    "static/js/main.567c758f.js"
+    "static/css/main.cdd4182a.css",
+    "static/js/main.e4f87934.js"
   ]
 }
