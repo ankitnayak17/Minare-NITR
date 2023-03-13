@@ -56,12 +56,17 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <span className="tagline">Welcome everyone, the ninth iteration of the major geo-mining fest, MINARE'23, is here.</span>
+                <span className="tagline">Welcome everyone, the 9th iteration of the Major Geo-Mining fest, MINARE'23, is here.</span>
                
                   <p> "Minare is the biggest geo-mining fest of Eastern India, which has proven to provide budding engineers develop their thinking capability towards the field of mining, the challenges it offers and how to overcome them."</p>
+                  <div className="spons-btn">
                   <a href="https://drive.google.com/file/d/18EWzE13DXQ5mF_BBlJvc2aLprijNHl5O/view?usp=drivesdk">          
-                  <button onClick={() => console.log("first")}>Learn More<ArrowRightCircle size={25} /></button>
+                  <button onClick={() => console.log("first")}>Event Brochure<ArrowRightCircle size={25} /></button>
                   </a>
+                  <a href="https://drive.google.com/file/d/18EWzE13DXQ5mF_BBlJvc2aLprijNHl5O/view?usp=drivesdk">          
+                  <button  onClick={() => console.log("first")}>Sponsers Brochure<ArrowRightCircle size={25} /></button>
+                  </a>
+                  </div>
               </div>}
             </TrackVisibility>
           </Col>
