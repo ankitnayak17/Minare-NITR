@@ -264,7 +264,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 700;
   letter-spacing: 0.8px;
   padding: 8px 10px;
-  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+  background: linear-gradient(87.4deg, rgb(83, 54, 54) 1.9%, rgb(200, 125, 76) 49.7%, rgb(83, 54, 54) 100.5%);
   border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: 20px;
   margin-bottom: 16px;
@@ -301,6 +301,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transition: 0.3s ease-in-out;
   line-height: 1;
 }
+
 .banner button:hover svg {
   margin-left: 25px;
 }
@@ -355,7 +356,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
-  margin-top: 0px;
+  margin-top: 40px;
 }
 .skill h2 {
 	font-size: 45px;
@@ -389,7 +390,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
   padding: 80px 0;
   position: relative;
-  background-color: black;
+    background: linear-gradient(87.4deg, rgb(83, 54, 54) 1.9%, rgb(200, 125, 76) 49.7%, rgb(83, 54, 54) 100.5%);
+
 }
 .project h2 {
 	font-size: 45px;
@@ -741,7 +743,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .footer .contact-detail{
   display: flex;
   flex-direction:row ;
-  padding: 10px;
+  padding: 10px 0 0 0;
   margin-right: 29px;
 }
 .contact-detail .contact-name{
@@ -757,6 +759,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 200%;
 }
 #name1 span{
+  margin-right: 250px;
+}
+#name3 span{
   margin-right: 250px;
 }
 @media screen and (max-width: 500px) {
@@ -993,8 +998,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
   
 .spon-container {
-  width: 90%;
-  margin: 115px auto 0 auto;
+  margin: 1.4rem 0;
+  width: 20rem;
+  aspect-ratio: 0.7;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  /* height: 10rem; */
+  position: relative;
+  border-radius: 10px;
+  transition: all .2s cubic-bezier(0.165, 0.84, 0.44, 1);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
   background: linear-gradient(87.4deg, rgb(83, 54, 54) 1.9%, rgb(200, 125, 76) 49.7%, rgb(83, 54, 54) 100.5%);
 }
 .spon-heading {
@@ -1126,6 +1141,7 @@ height: 130px;
 } */
 
 .spon-n-container-main{
+  
   background: rgb(228,192,97);
   background: -moz-linear-gradient(90deg, rgba(228,192,97,1) 100%, rgba(205,131,26,1) 100%, rgba(74,74,0,1) 100%);
   background: linear-gradient(87.4deg, rgb(252, 227, 87) 1.9%, rgb(200, 125, 76) 49.7%, rgb(83, 54, 54) 100.5%);
@@ -1232,17 +1248,30 @@ height: 10px;
 
 
 .spon-n-slider{ 
+  margin: 1.4rem 0;
+  width: 20rem;
+  aspect-ratio: 0.7;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  /* height: 10rem; */
+  position: relative;
+  border-radius: 10px;
+  transition: all .2s cubic-bezier(0.165, 0.84, 0.44, 1);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
   height: 250px;
   margin: auto;
   position: relative;
-  width: 90%;
-  display: grid;
+  
+ display: grid;
+ 
   place-items: center;
   overflow: hidden;
 }
 .spon-n-slide-track{
   display: flex;
-  width: calc(250px*12);
+  
   animation: scroll 40s linear infinite;
 }
 /*.spon-n-slide-track:hover{
@@ -1256,13 +1285,30 @@ height: 10px;
     transform: translateX(calc(-250px*6));
   }
 }*/
+.spon-grid{
+  
+  display: grid;
+  grid-template-columns: repeat(3, calc(33.3333% - 13.3333px));
+  
+grid-auto-columns: calc(33.3333% - 13.3333px);
+
+}
+.spon-pad{
+  padding: 10px;
+}
 .spon-n-slide {
   height: 200px;
-  width: 250px;
+  width: 200px;
   display: flex;
-  flex-wrap: column;
+  flex-wrap: row;
   align-items: center;
   padding: 15px;
+}
+.spon-card-face-img{
+  width: 100%;
+  
+  
+  
 }
 .spon-n-slide img{
   width: 100%;
@@ -1338,8 +1384,28 @@ height: 10px;
   /* margin-top: 8rem;
   margin-left: 10rem; */
 /* } */
+.spon-pad{
+  padding: 15px 0 0 35px;
+}
 .spon-n-slider{
-  width: 90%;
+  width: 20rem;
+}
+.spon-grid{
+ 
+  grid-auto-columns: 100%;
+  grid-template-columns: repeat(1, calc(33.3333% - 13.3333px));
+  
+grid-auto-columns: calc(33.3333% - 13.3333px);
+}
+
+.spon-n-slide{
+  height: 200px;
+  width: 200px;
+  display: block;
+  flex-wrap: column;
+  align-items: center;
+  padding: 15px;
+
 }
 
 }
