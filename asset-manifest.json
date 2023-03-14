@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Minare-NITR/static/css/main.f23f238c.css",
-    "main.js": "/Minare-NITR/static/js/main.e4f87934.js",
+    "main.css": "/Minare-NITR/static/css/main.78d72917.css",
+    "main.js": "/Minare-NITR/static/js/main.947fede9.js",
     "static/js/787.13b41dd1.chunk.js": "/Minare-NITR/static/js/787.13b41dd1.chunk.js",
     "static/media/NanumGothic-Bold.ttf": "/Minare-NITR/static/media/NanumGothic-Bold.6499af72b1d61fe8269d.ttf",
     "static/media/MININGLOGO.png": "/Minare-NITR/static/media/MININGLOGO.748ec68e05bbc3289ba3.png",
@@ -40,17 +40,17 @@
     "static/media/handshake.jpg": "/Minare-NITR/static/media/handshake.eb9f4623d8cd475b21b4.jpg",
     "static/media/revicons.woff": "/Minare-NITR/static/media/revicons.e8746a624ed098489406.woff",
     "static/media/Minare logo.svg": "/Minare-NITR/static/media/Minare logo.6fa38bc13d590bdc429200818d4c0b0f.svg",
-    "static/media/nav-icon3.svg": "/Minare-NITR/static/media/nav-icon3.72cef43bc93b04f52e29f022ef720f8b.svg",
-    "static/media/logo.svg": "/Minare-NITR/static/media/logo.3c6c479cfa1d154dbfccd4d5f91320f4.svg",
+    "static/media/nav-icon3.svg": "/Minare-NITR/static/media/nav-icon3.08b285abb8e118b52637efa5d65c5367.svg",
+    "static/media/logo.svg": "/Minare-NITR/static/media/logo.eaf3c0bc058e0ed6471ba20dc0af6da2.svg",
     "index.html": "/Minare-NITR/index.html",
-    "static/media/nav-icon1.svg": "/Minare-NITR/static/media/nav-icon1.dff40ae802524d8fc0cbce3f312abe4f.svg",
-    "static/media/nav-icon2.svg": "/Minare-NITR/static/media/nav-icon2.a39f0e5e47e442dafcc5c9c320f19f6f.svg",
-    "main.f23f238c.css.map": "/Minare-NITR/static/css/main.f23f238c.css.map",
-    "main.e4f87934.js.map": "/Minare-NITR/static/js/main.e4f87934.js.map",
+    "static/media/nav-icon1.svg": "/Minare-NITR/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
+    "static/media/nav-icon2.svg": "/Minare-NITR/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
+    "main.78d72917.css.map": "/Minare-NITR/static/css/main.78d72917.css.map",
+    "main.947fede9.js.map": "/Minare-NITR/static/js/main.947fede9.js.map",
     "787.13b41dd1.chunk.js.map": "/Minare-NITR/static/js/787.13b41dd1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f23f238c.css",
-    "static/js/main.e4f87934.js"
+    "static/css/main.78d72917.css",
+    "static/js/main.947fede9.js"
   ]
 }
