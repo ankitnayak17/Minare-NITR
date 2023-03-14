@@ -246,7 +246,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 200px 0 100px 0;
- background: linear-gradient(87.4deg, rgb(252, 227, 87) 1.9%, rgb(200, 125, 76) 49.7%, rgb(83, 54, 54) 100.5%);
+ 
+  background: linear-gradient(87.4deg, rgb(83, 54, 54) 1.9%, rgb(200, 125, 76) 49.7%, rgb(83, 54, 54) 100.5%);
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -254,7 +255,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .bannerSponsor {
   margin-top: 0;
   padding: 50px 0 100px 0;
- background: linear-gradient(87.4deg, rgb(252, 227, 87) 1.9%, rgb(200, 125, 76) 49.7%, rgb(83, 54, 54) 100.5%);
+ background: linear-gradient(87.4deg, rgb(83, 54, 87) 1.9%, rgb(200, 125, 76) 49.7%, rgb(83, 54, 54) 100.5%);
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -320,6 +321,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
 }
+.spon-btn{
+  display: flex;
+  flex-direction: column;
+
+}
 
 
 @media screen and (max-width: 500px) {
@@ -342,6 +348,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill {
   padding: 0 0 50px 0;
   position: relative;
+  background: linear-gradient(87.4deg, rgb(78, 56, 56) 1.9%, rgb(200, 125, 76) 49.7%, rgb(83, 54, 54) 100.5%);
 }
 .skill-bx {
   background: #151515;
@@ -399,10 +406,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 56%;
 }
 .project .nav.nav-pills {
-  width: 72%;
+  width: 42%;
   margin: 0 auto;
   border-radius: 50px;
-  background-color: rgb(255 255 255 / 10%);
+  
   overflow: hidden;
 }
 .project .nav.nav-pills .nav-item {
@@ -427,39 +434,45 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     position: absolute;
     width: 0;
     height: 100%;
-    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    background: linear-gradient(87.4deg, rgb(83, 54, 54) 1.9%, rgb(200, 125, 76) 49.7%, rgb(83, 54, 54) 100.5%);
     top: 0;
     left: 0;
     z-index: -1;
+    overflow: hidden;
     transition: 0.3s ease-in-out;
 }
 .project .nav.nav-pills .nav-link.active::before {
     width: 100% !important;
+    border-radius: 55px 0px 0px 55px;
+    
 }
 .project .nav.nav-pills .nav-link.active {
     border: 1px solid rgba(255, 255, 255, 1);
+    
 }
 .nav-link#projects-tabs-tab-first {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 55px 0px 0px 55px;
+  
 }
 .nav-link#projects-tabs-tab-second {
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 0px 55px 55px 0px;
 }
-.nav-link#projects-tabs-tab-third {
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 0 55px 55px 0;
+.nav-link#projects-tabs-tab-second::before{
+  border-radius: 0px 55px 55px 0px;
 }
+
 .proj-imgbx {
   position: relative;
-  border-radius: 30px;
+  
   overflow: hidden;
   margin-bottom: 24px;
 }
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: linear-gradient(87.4deg, rgb(83, 54, 54) 1.9%, rgb(200, 125, 76) 49.7%, rgb(83, 54, 54) 100.5%);
   opacity: 0.85;
   position: absolute;
   width: 100%;
@@ -495,13 +508,67 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 15px;
   letter-spacing: 0.8px;
 }
-.proj-txtx button {
-  display: block;
-  margin: 20px 0 0 120px;
-   background: linear-gradient(90.21deg, #670e43 -5.91%, #4420e5 111.58%);
+
+.btn  {
+ 
+  margin: 20px 0 0 35rem;
+  
    border: none;
-   border-radius: 20px;
+   
 }
+.button-name {
+  align-items: center;
+  appearance: none;
+   background: linear-gradient(87.4deg, rgb(83, 54, 54) 1.9%, rgb(200, 125, 76) 49.7%, rgb(83, 54, 54) 100.5%);
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.2) 0 2px 4px,rgba(45, 35, 66, 0.15) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395A;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  border: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+  color: white;
+ }
+ 
+ 
+ 
+ 
+ 
+ .button-name:active {
+ 
+  transform: translateY(2px);
+ }
+ @media screen and (max-width: 500px){
+
+  .btn {
+    margin: 20px 0 0 6rem;
+  
+   border: none;
+  }
+  .project .nav.nav-pills {
+    width: 100%;
+  }
+ }
+ 
 .background-image-right {
   top: 20%;
   position: absolute;
@@ -513,7 +580,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Projects Css ************/
 .contact {
- background: linear-gradient(87.4deg, rgb(255, 241, 165) 1.9%, rgb(200, 125, 76) 49.7%, rgb(83, 54, 54) 100.5%);
+  background: linear-gradient(87.4deg, rgb(83, 54, 54) 1.9%, rgb(200, 125, 76) 49.7%, rgb(83, 54, 54) 100.5%);
   padding: 60px 0;
 }
 .contact img {
@@ -587,7 +654,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Footer Css ************/
 .footer {
   padding: 1rem 0;
-  background-image: url('./assets/img/footer-bg.png');
+    background: linear-gradient(87.4deg, rgb(83, 54, 54) 1.9%, rgb(83, 54, 54) 100.5%);
+
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -746,10 +814,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .team-container-main{
-  margin: 110px 0 0 0;
+  padding: 90px 0 0 0;
   /* height: calc(100% - 120px); */
   /* background: url('images/WhatsApp\ Image\ 2023-02-04\ at\ 18.10.23.jpg'); */
- background: linear-gradient(87.4deg, rgb(255, 241, 165) 1.9%, rgb(200, 125, 76) 49.7%, rgb(83, 54, 54) 100.5%);
+  background: linear-gradient(87.4deg, rgb(83, 54, 54) 1.9%, rgb(200, 125, 76) 49.7%, rgb(83, 54, 54) 100.5%);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -761,7 +829,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .team-section{
   height: 10%;
-  margin: 5rem auto;
+  margin: 2rem auto;
   width: 80%;
   display: flex;
   flex-direction: column;
@@ -882,21 +950,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 @media screen and (max-width: 500px) {
 
-  
-  
   .navbar.nav-expanded + .team-container-main{
-    margin-top: 280px;
+    padding-top: 280px;
   }
   
   .team-container-main{
-    margin: 80px 0;
+    padding: 60px 0 0 0;
     transition: all 0.3s ease-in;
     /* background-position: center; */
     /* background-position: 0 70px; */
   }
   .team-section{
     width: 90%;
-    margin: 4rem auto;
+    margin: 1rem auto;
   }
   .team-card{
     width: 85%;
@@ -929,6 +995,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .spon-container {
   width: 90%;
   margin: 115px auto 0 auto;
+  background: linear-gradient(87.4deg, rgb(83, 54, 54) 1.9%, rgb(200, 125, 76) 49.7%, rgb(83, 54, 54) 100.5%);
 }
 .spon-heading {
   text-align: center;
@@ -1050,28 +1117,32 @@ height: 130px;
 }
 
 
+
+
 /* spon new */
 
-.navbar.nav-expanded + .spon-n-container{
+/* .navbar.nav-expanded + .spon-n-container{
   margin-top: 280px;
-}
+} */
 
 .spon-n-container-main{
   background: rgb(228,192,97);
   background: -moz-linear-gradient(90deg, rgba(228,192,97,1) 100%, rgba(205,131,26,1) 100%, rgba(74,74,0,1) 100%);
-  background: -webkit-linear-gradient(90deg, rgba(228,192,97,1) 100%, rgba(205,131,26,1) 100%, rgba(74,74,0,1) 100%);
-  background: linear-gradient(90deg, rgba(228,192,97,1) 100%, rgba(205,131,26,1) 100%, rgba(74,74,0,1) 100%);
+  background: linear-gradient(87.4deg, rgb(252, 227, 87) 1.9%, rgb(200, 125, 76) 49.7%, rgb(83, 54, 54) 100.5%);
+  background: linear-gradient(87.4deg, rgb(83, 54, 54) 1.9%, rgb(200, 125, 76) 49.7%, rgb(83, 54, 54) 100.5%);
+
+  padding: 90px 0 0 0;
+
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e4c061",endColorstr="#4a4a00",GradientType=1);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e4c061",endColorstr="#4a4a00",GradientType=1);
   font-family: 'Lato', sans-serif;
-
 }
 
   
 .spon-n-container {
   width: 90%;
-  margin: 110px auto 0 auto;
-  padding: 40px 0;
+  margin: 2rem auto 0 auto;
+   padding: 20px 0; 
 }
 .spon-n-heading {
   text-align: center;
@@ -1113,7 +1184,7 @@ height: 130px;
 
 /* } */
 .spon-n-imd > img{
-  width: 60%;
+  width: 30%;
   aspect-ratio: 1;
 }
 
@@ -1155,12 +1226,12 @@ display: flex;
 flex-wrap: wrap;
 }
 .spon-n-left img{
-width: 150px;
-height: 130px;
+width: 10px;
+height: 10px;
 }
 
 
-.spon-n-slider{
+.spon-n-slider{ 
   height: 250px;
   margin: auto;
   position: relative;
@@ -1174,7 +1245,7 @@ height: 130px;
   width: calc(250px*12);
   animation: scroll 40s linear infinite;
 }
-.spon-n-slide-track:hover{
+/*.spon-n-slide-track:hover{
   animation-play-state: paused;
 }
 @keyframes scroll {
@@ -1184,11 +1255,12 @@ height: 130px;
   100%{
     transform: translateX(calc(-250px*6));
   }
-}
+}*/
 .spon-n-slide {
   height: 200px;
   width: 250px;
   display: flex;
+  flex-wrap: column;
   align-items: center;
   padding: 15px;
 }
@@ -1221,17 +1293,22 @@ height: 130px;
 
 @media screen and (max-width: 500px) {
 
-.navbar.nav-expanded + .spon-n-container{
-  margin-top: 280px;
+.navbar.nav-expanded + .spon-n-container-main{
+  padding-top: 280px;
 }
 
+.spon-n-container-main{
+  transition: all 0.3s ease-in;
+  padding: 60px 0 0 0;
+
+}
 
 .spon-n-title{
   margin: 1rem 0;  
 }
 .spon-n-container{
   width: 95%;
-  margin-top: 80px;
+  margin-top: 1rem;
   transition: .3s all ease-in;
 }
 
@@ -1257,10 +1334,10 @@ height: 130px;
   margin-top: 1rem;
   margin-left: 5rem;
 } */
-.spon-n-head1{
+/* .spon-n-head1{ */
   /* margin-top: 8rem;
   margin-left: 10rem; */
-}
+/* } */
 .spon-n-slider{
   width: 90%;
 }

@@ -63,14 +63,12 @@ export const Projects = () => {
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
-                      <Nav.Link eventKey="first">Day 1</Nav.Link>
+                      <Nav.Link eventKey="first">Flagship Events</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">Day 2</Nav.Link>
+                      <Nav.Link eventKey="second">Fun Events</Nav.Link>
                     </Nav.Item>
-                    <Nav.Item>
-                      <Nav.Link eventKey="third">Day 3</Nav.Link>
-                    </Nav.Item>
+                   
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
@@ -87,18 +85,35 @@ export const Projects = () => {
                         }
                       </Row>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="section">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                    <Tab.Pane eventKey="second">
+                   
+                      <Row>
+                        {
+                          projects.map((project, index) => {
+                            return (
+                              <ProjectCard
+                                key={index}
+                                {...project}
+                                />
+                            )
+                          })
+                        }
+                      </Row>
+                    
                     </Tab.Pane>
-                    <Tab.Pane eventKey="third">
+                    {/* <Tab.Pane eventKey="third">
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
-                    </Tab.Pane>
+                    </Tab.Pane> */}
                   </Tab.Content>
                 </Tab.Container>
               </div>}
             </TrackVisibility>
           </Col>
         </Row>
+        <div className="btn">
+          
+<button role="button" class="button-name">Register Here</button>
+        </div>
       </Container>
       <img className="background-image-right" src={colorSharp2} alt={colorSharp2}></img>
     </section>
