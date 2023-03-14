@@ -1398,9 +1398,40 @@ height: 10px;
   font: 5em Open Sans, Impact;
   text-transform: uppercase;
   margin: 0;
-
 }
 
+.noUnderline {
+  text-decoration: none;
+}
+
+.carousel {
+  /* width: 600px; */
+  
+  margin: auto;
+}
+
+.carousel-control-prev {
+  height: 300px;
+}
+
+.carousel-control-next {
+  height: 300px;
+}
+
+.carousel .carousel-control-prev-icon {
+  visibility: hidden;
+}
+
+.carousel:hover .carousel-control-prev-icon {
+  visibility: visible;
+}
+
+.reactPlayer {
+  margin: auto ;
+  margin-top: 30px;
+  width: fit-content;
+  
+}
 
 
 

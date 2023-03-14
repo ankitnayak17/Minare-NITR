@@ -4,7 +4,6 @@ import headerImg from "../assets/img/MININGLOGO.png";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 
 import TrackVisibility from 'react-on-screen';
-import { redirect } from "react-router-dom";
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -62,13 +61,13 @@ export const Banner = () => {
 
                   {/* <span> */}
                   <div style={{'display': 'flex', 'justify-content':'space-between'}}>
-                  <a href="https://drive.google.com/file/d/18EWzE13DXQ5mF_BBlJvc2aLprijNHl5O/view?usp=drivesdk" target="_blank" rel="noreferrer">          
+                  <a href="https://drive.google.com/file/d/18EWzE13DXQ5mF_BBlJvc2aLprijNHl5O/view?usp=drivesdk" target="_blank" rel="noreferrer" className="noUnderline">          
                   <button>Event Brochure<ArrowRightCircle size={25} /></button>
                   </a>
                   {/* </span>
                   <span> */}
 
-                  <a href="https://drive.google.com/file/d/18EWzE13DXQ5mF_BBlJvc2aLprijNHl5O/view?usp=drivesdk" target="_blank" rel="noreferrer">          
+                  <a href="https://drive.google.com/file/d/18EWzE13DXQ5mF_BBlJvc2aLprijNHl5O/view?usp=drivesdk" target="_blank" rel="noreferrer"  className="noUnderline">          
                   <button>Sponsors Brochure<ArrowRightCircle size={25} /></button>
                   </a>
                   {/* </span> */}
