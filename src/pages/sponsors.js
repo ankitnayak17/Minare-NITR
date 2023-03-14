@@ -86,56 +86,69 @@ function Sponsors() {
               We take great pride to announce that we have with us the mentioned
               as our partner for Minare. They are heartily welcomed here.
             </div>
-            <div className="spon-n-imd">
-              <img src={image6} alt="" />
-            </div>
+           
           </div>
         </div>
-        <h1 className="spon-n-head1">PROUD SPONSORS</h1>
+       <div className="spon-grid">
+       <div className="spon-pad">
         <div className="spon-n-slider">
           <div className="spon-n-slide-track">
             <div className="spon-n-slide">
-              <img src={image0} alt="" />
+              <img  className='spon-card-face-img' src={image0} alt="" />
             </div>
-            <div className="spon-n-slide">
-              <img src={image1} alt="" />
             </div>
-            <div className="spon-n-slide">
-              <img src={image2} alt="" />
             </div>
-            <div className="spon-n-slide">
-              <img src={image3} alt="" />
             </div>
+            <div className="spon-pad">
+            <div className="spon-n-slider">
+          <div className="spon-n-slide-track">
             <div className="spon-n-slide">
-              <img src={image4} alt="" />
+              <img  className='spon-card-face-img' src={image1} alt="" />
             </div>
-            <div className="spon-n-slide">
-              <img src={image5} alt="" />
             </div>
-
-            <div className="spon-n-slide">
-              <img src={image0} alt="" />
             </div>
-            <div className="spon-n-slide">
-              <img src={image1} alt="" />
             </div>
+            <div className="spon-pad">
+            <div className="spon-n-slider">
+          <div className="spon-n-slide-track">
             <div className="spon-n-slide">
-              <img src={image2} alt="" />
+              <img className='spon-card-face-img' src={image2} alt="" />
             </div>
-            <div className="spon-n-slide">
-              <img src={image3} alt="" />
             </div>
-            <div className="spon-n-slide">
-              <img src={image4} alt="" />
             </div>
+           </div>
+           <div className="spon-pad">
+            <div className="spon-n-slider">
+            <div className="spon-n-slide-track">
             <div className="spon-n-slide">
-              <img src={image5} alt="" />
+              <img className='spon-card-face-img' src={image3} alt="" />
+            </div>
+            </div>
+            </div>
+            </div>
+            <div className="spon-pad">
+            <div className="spon-n-slider">
+          <div className="spon-n-slide-track">
+            <div className="spon-n-slide">
+              <img className='spon-card-face-img' src={image4} alt="" />
+            </div>
+            </div>
+            </div>
+            </div>
+            <div className="spon-pad">
+            <div className="spon-n-slider">
+          <div className="spon-n-slide-track">
+            <div className="spon-n-slide">
+              <img className='spon-card-face-img' src={image5} alt="" />
+            </div>
+            </div>
             </div>
           </div>
         </div>
       </div>
       <GoToTop />
     </div>
+    
   );
 }
 

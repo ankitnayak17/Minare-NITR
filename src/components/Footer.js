@@ -29,6 +29,7 @@ export const Footer = () => {
                   <div className="contact-name">
                     <div id="name1"><h3>Deepak Anand</h3><span>9546637666</span></div>
                     <div id="name2"><h3>Binayak Sahu</h3><span>8018848713</span></div>
+                    <div id="name3"><h3>Binayak  Mishra</h3><span>8018848713</span></div>
                   </div>
                 </div>
               </div>

@@ -61,13 +61,13 @@ export const Banner = () => {
 
                   {/* <span> */}
                   <div style={{'display': 'flex', 'justify-content':'space-between'}}>
-                  <a href="https://drive.google.com/file/d/18EWzE13DXQ5mF_BBlJvc2aLprijNHl5O/view?usp=drivesdk" target="_blank" rel="noreferrer" className="noUnderline">          
+                  <a style={{'textDecoration':'none'}} href="https://drive.google.com/file/d/18EWzE13DXQ5mF_BBlJvc2aLprijNHl5O/view?usp=drivesdk" target="_blank" rel="noreferrer">          
                   <button>Event Brochure<ArrowRightCircle size={25} /></button>
                   </a>
                   {/* </span>
                   <span> */}
 
-                  <a href="https://drive.google.com/file/d/18EWzE13DXQ5mF_BBlJvc2aLprijNHl5O/view?usp=drivesdk" target="_blank" rel="noreferrer"  className="noUnderline">          
+                  <a style={{'textDecoration':'none'}} href="https://drive.google.com/file/d/18EWzE13DXQ5mF_BBlJvc2aLprijNHl5O/view?usp=drivesdk" target="_blank" rel="noreferrer">          
                   <button>Sponsors Brochure<ArrowRightCircle size={25} /></button>
                   </a>
                   {/* </span> */}
