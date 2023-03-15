@@ -57,10 +57,9 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome everyone, the ninth iteration of the major geo-mining fest, MINARE'23, is here.</span>
-               
                   <p> "Minare is the biggest geo-mining fest of Eastern India, which has proven to provide budding engineers develop their thinking capability towards the field of mining, the challenges it offers and how to overcome them."</p>
                   {/* <span> */}
-                  <div style={{'display': 'flex', 'justify-content':'space-between'}}>
+                  <div style={{'display': 'flex', 'justifycontent':'space-between'}}>
                   <a href="https://drive.google.com/file/d/18EWzE13DXQ5mF_BBlJvc2aLprijNHl5O/view?usp=drivesdk" target="_blank" rel="noreferrer">          
                   <button>Learn More<ArrowRightCircle size={25} /></button>
                   </a>
