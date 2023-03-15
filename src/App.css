@@ -753,6 +753,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-left: 300px;
   margin-top: -70px;
 }
+.contact-name #name3{
+  margin-left: 170px;
+ 
+  
+}
 
 .contact-detail h3{
   display: flex;
@@ -762,7 +767,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-right: 250px;
 }
 #name3 span{
-  margin-right: 250px;
+  margin-right: 100px;
 }
 @media screen and (max-width: 500px) {
   .footer .contact-detail{ 
@@ -773,9 +778,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     margin: 0px;
     width: 100%;
   }
+ 
   
   .contact-detail .contact-name div{
-    margin: 0 0.4rem !important;
+    margin: 0 1rem 0 6rem !important;
     float: left;
     width: calc(48% - 0.4rem);
     font-size: 1rem;
@@ -803,7 +809,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     margin: 0 auto;
   }
   .contact-us h2{
-    margin: 0 auto;
+    margin: 0 auto ;
   }
 }
 
