@@ -58,7 +58,7 @@ function Section1() {
       <div className="bannerSponsor">
         <div className="spon-container sponsors banner">
           <div className="spon-heading">
-            <h1>FEATURED SPONSORS</h1>
+            <h1>PAST SPONSORS</h1>
             <p className="banner p">
               Over the past years Minare has had the privilege to have hosted a
               number of sponsors which provided a very entertaining experience
@@ -80,62 +80,75 @@ function Sponsors() {
      <div className="spon-n-container-main">
       <div className="spon-n-container">
         <div className="spon-n-heading">
-          <h1 className="spon-n-title">FEATURED SPONSORS</h1>
+          <h1 className="spon-n-title">PAST SPONSORS</h1>
           <div className="spon-n-content">
             <div className="spon-n-head">
               We take great pride to announce that we have with us the mentioned
               as our partner for Minare. They are heartily welcomed here.
             </div>
-            <div className="spon-n-imd">
-              <img src={image6} alt="" />
-            </div>
+           
           </div>
         </div>
-        <h1 className="spon-n-head1">OUR SPONSORS</h1>
+       <div className="spon-grid">
+       <div className="spon-pad">
         <div className="spon-n-slider">
           <div className="spon-n-slide-track">
             <div className="spon-n-slide">
-              <img src={image0} alt="" />
+              <img  className='spon-card-face-img' src={image0} alt="" />
             </div>
-            <div className="spon-n-slide">
-              <img src={image1} alt="" />
             </div>
-            <div className="spon-n-slide">
-              <img src={image2} alt="" />
             </div>
-            <div className="spon-n-slide">
-              <img src={image3} alt="" />
             </div>
+            <div className="spon-pad">
+            <div className="spon-n-slider">
+          <div className="spon-n-slide-track">
             <div className="spon-n-slide">
-              <img src={image4} alt="" />
+              <img  className='spon-card-face-img' src={image1} alt="" />
             </div>
-            <div className="spon-n-slide">
-              <img src={image5} alt="" />
             </div>
-
-            <div className="spon-n-slide">
-              <img src={image0} alt="" />
             </div>
-            <div className="spon-n-slide">
-              <img src={image1} alt="" />
             </div>
+            <div className="spon-pad">
+            <div className="spon-n-slider">
+          <div className="spon-n-slide-track">
             <div className="spon-n-slide">
-              <img src={image2} alt="" />
+              <img className='spon-card-face-img' src={image2} alt="" />
             </div>
-            <div className="spon-n-slide">
-              <img src={image3} alt="" />
             </div>
-            <div className="spon-n-slide">
-              <img src={image4} alt="" />
             </div>
+           </div>
+           <div className="spon-pad">
+            <div className="spon-n-slider">
+            <div className="spon-n-slide-track">
             <div className="spon-n-slide">
-              <img src={image5} alt="" />
+              <img className='spon-card-face-img' src={image3} alt="" />
+            </div>
+            </div>
+            </div>
+            </div>
+            <div className="spon-pad">
+            <div className="spon-n-slider">
+          <div className="spon-n-slide-track">
+            <div className="spon-n-slide">
+              <img className='spon-card-face-img' src={image4} alt="" />
+            </div>
+            </div>
+            </div>
+            </div>
+            <div className="spon-pad">
+            <div className="spon-n-slider">
+          <div className="spon-n-slide-track">
+            <div className="spon-n-slide">
+              <img className='spon-card-face-img' src={image5} alt="" />
+            </div>
+            </div>
             </div>
           </div>
         </div>
       </div>
       <GoToTop />
     </div>
+    
   );
 }
 

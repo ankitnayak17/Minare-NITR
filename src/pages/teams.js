@@ -14,7 +14,7 @@ import GoToTop from '../GoToTop'
 
 
 function Section1(){
-    var PersonData = [{'Name':'Amit Kumar Gorai', 'Designation': 'President', 'Image': image1},{'Name':'R.M. Biswal', 'Designation': 'Advisor', 'Image': image2}, {'Name':'Rajesh Mishra', 'Designation': 'Vice President', 'Image': image3}, {'Name':'Deepak Anand', 'Designation': 'Secretary', 'Image': image4}, {'Name':'Binayak Sahu', 'Designation': 'Secretary', 'Image': image5}, {'Name':'Deepak Vaishay', 'Designation': 'Technical Head', 'Image': image6}, {'Name':'Aporanta Mukhopadhyay', 'Designation': 'Cultural Secretary', 'Image': image10}, {'Name':'Agam Jeswani', 'Designation': 'Literary Secretary', 'Image': image7}, {'Name':'A.K. Rawat', 'Designation': 'Sports  Secretary', 'Image': image8}, {'Name':'Anurag Roy', 'Designation': 'General Secretary', 'Image': image9}]
+    var PersonData = [{'Name':'Amit Kumar Gorai', 'Designation': 'President', 'Image': image1},{'Name':'R.M. Biswal', 'Designation': 'Advisor', 'Image': image2}, {'Name':'Rajesh Mishra', 'Designation': 'Vice President', 'Image': image3}, {'Name':'Deepak Anand', 'Designation': 'General Secretary', 'Image': image4}, {'Name':'Binayak Sahu', 'Designation': 'General Secretary', 'Image': image5}, {'Name':'Deepak Vaishay', 'Designation': 'Technical Head', 'Image': image6}, {'Name':'Aporanta Mukhopadhyay', 'Designation': 'Cultural Secretary', 'Image': image10}, {'Name':'Agam Jeswani', 'Designation': 'Literary Secretary', 'Image': image7}, {'Name':'A.K. Rawat', 'Designation': 'Sports  Secretary', 'Image': image8}, {'Name':'Anurag Roy', 'Designation': 'Joint Secretary', 'Image': image9}]
 
 
     function Person(){

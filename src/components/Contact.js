@@ -47,7 +47,7 @@ export const Contact = () => {
       setStatus({ succes: false, message: 'We are sorry for the inconvinience, Message could\'t be sent at this moment. please try again later.'});
       // alert(status.message)
     })
-    alert(status.message)
+    alert("Message sent successfully")
     setButtonText("Send");
     // let result = await response.json();
     setFormDetails(formInitialDetails);
