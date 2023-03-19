@@ -307,6 +307,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .banner img {
   animation: updown 3s linear infinite;
+  margin-top: -4rem;
+  width: 25rem;
 }
 @keyframes updown {
     0% {
@@ -339,6 +341,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   .banner{
     padding-top: 100px;
     transition: all 0.3s ease-in;
+  }
+  .banner img{
+    z-index: -1;
+    margin-top: 4rem;
   }
 }
 
@@ -758,16 +764,23 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
  
   
 }
+.contact-us h2{
+  color: #000;
+  font-weight: bolder;
+}
 
 .contact-detail h3{
   display: flex;
   width: 200%;
 }
+#name3 h3{
+  margin-left: -1rem;
+}
 #name1 span{
   margin-right: 250px;
 }
 #name3 span{
-  margin-right: 100px;
+  margin-right: 110px;
 }
 @media screen and (max-width: 500px) {
   .footer .contact-detail{ 
