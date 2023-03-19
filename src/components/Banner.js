@@ -59,9 +59,9 @@ export const Banner = () => {
 
                   <p> "Minare is the biggest geo-mining fest of Eastern India, which has proven to provide budding engineers develop their thinking capability towards the field of mining, the challenges it offers and how to overcome them."</p>
 
-                  <div style={{ 'display': 'flex', 'justifycontent': 'space-between' }}>
-                    <a href="https://drive.google.com/file/d/18EWzE13DXQ5mF_BBlJvc2aLprijNHl5O/view?usp=drivesdk" target="_blank" rel="noreferrer">
-                      <button>Learn More<ArrowRightCircle size={25} /></button></a>
+                  {/* <div style={{ 'display': 'flex', 'justifycontent': 'space-between' }}> */}
+                    {/* <a href="https://drive.google.com/file/d/18EWzE13DXQ5mF_BBlJvc2aLprijNHl5O/view?usp=drivesdk" target="_blank" rel="noreferrer"> */}
+                      {/* <button>Learn More<ArrowRightCircle size={25} /></button></a> */}
                     <div style={{ 'display': 'flex', 'justify-content': 'space-between' }}>
                       <a style={{ 'textDecoration': 'none' }} href="https://drive.google.com/file/d/18EWzE13DXQ5mF_BBlJvc2aLprijNHl5O/view?usp=drivesdk" target="_blank" rel="noreferrer">
                         <button>Event Brochure<ArrowRightCircle size={25} /></button>
@@ -70,7 +70,7 @@ export const Banner = () => {
                         <button>Sponsors Brochure<ArrowRightCircle size={25} /></button>
                       </a>
                     </div>
-                  </div>
+                  {/* </div> */}
                 </div>}
             </TrackVisibility>
           </Col>
