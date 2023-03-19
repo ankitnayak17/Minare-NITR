@@ -803,7 +803,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   .contact-detail .contact-name div h3{
     /* width: 50%; */
     justify-content: center;
-    width: 100%;
+    width: 120%;
   }
   .contact-detail .contact-name div span{
     margin: 0 !important;
