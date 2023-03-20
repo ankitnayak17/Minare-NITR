@@ -1492,17 +1492,12 @@ grid-auto-columns: calc(33.3333% - 13.3333px);
   visibility: visible;
 }
 
-.reactPlayer {
-  margin: auto ;
-  margin-top: 30px;
-  width: fit-content;
-  
+
+
+.imagesCarousel {
+  display: flex;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
 }
-
-
-
-
-
-
-
-
