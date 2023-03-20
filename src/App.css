@@ -1139,7 +1139,7 @@ height: 130px;
 
 @media screen and (max-width: 1000px) {
   .spon-card {
-    width: 40%;
+    width: 60%;
   }
 }
 
@@ -1407,7 +1407,7 @@ grid-auto-columns: calc(33.3333% - 13.3333px);
   padding: 15px 0 0 35px;
 }
 .spon-n-slider{
-  width: 20rem;
+  width: 18rem;
 }
 .spon-grid{
  
