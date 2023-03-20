@@ -64,7 +64,7 @@ export const NavBar = () => {
         <Container>
           <Navbar.Brand href="#/">
             {/* <NavLink to={'/'}> */}
-            <img src={logo} alt="Logo" />
+           
             {/* <img src={logo2}  alt="Logo" /> */}
               <img src={logo2}  alt="Logo" />
             {/* </NavLink> */}

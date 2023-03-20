@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Annual Geo-Mining Fest" ];
+  const toRotate = ["Annual Geo-Mining Fest"];
   const period = 2000;
 
   useEffect(() => {
@@ -54,32 +54,31 @@ export const Banner = () => {
           <Col xs={12} md={6} xl={7}>
             <TrackVisibility>
               {({ isVisible }) =>
-              <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <span className="tagline">Welcome everyone, the 9th iteration of the Major Geo-Mining fest, MINARE'23, is here.</span>
-               
+                <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+                  <span className="tagline">Welcome everyone, the 9th iteration of the Major Geo-Mining fest, MINARE'23, is here.</span>
+
                   <p> "Minare is the biggest geo-mining fest of Eastern India, which has proven to provide budding engineers develop their thinking capability towards the field of mining, the challenges it offers and how to overcome them."</p>
 
-                  {/* <span> */}
-                  <div style={{'display': 'flex', 'justify-content':'space-between'}}>
-                  <a style={{'textDecoration':'none'}} href="https://drive.google.com/file/d/18EWzE13DXQ5mF_BBlJvc2aLprijNHl5O/view?usp=drivesdk" target="_blank" rel="noreferrer">          
-                  <button>Event Brochure<ArrowRightCircle size={25} /></button>
-                  </a>
-                  {/* </span>
-                  <span> */}
-
-                  <a style={{'textDecoration':'none'}} href="https://drive.google.com/file/d/18EWzE13DXQ5mF_BBlJvc2aLprijNHl5O/view?usp=drivesdk" target="_blank" rel="noreferrer">          
-                  <button>Sponsors Brochure<ArrowRightCircle size={25} /></button>
-                  </a>
-                  {/* </span> */}
-                  </div>
-              </div>}
+                  {/* <div style={{ 'display': 'flex', 'justifycontent': 'space-between' }}> */}
+                    {/* <a href="https://drive.google.com/file/d/18EWzE13DXQ5mF_BBlJvc2aLprijNHl5O/view?usp=drivesdk" target="_blank" rel="noreferrer"> */}
+                      {/* <button>Learn More<ArrowRightCircle size={25} /></button></a> */}
+                    <div style={{ 'display': 'flex', 'justify-content': 'space-between' }}>
+                      <a style={{ 'textDecoration': 'none' }} href="https://drive.google.com/file/d/18EWzE13DXQ5mF_BBlJvc2aLprijNHl5O/view?usp=drivesdk" target="_blank" rel="noreferrer">
+                        <button>Event Brochure<ArrowRightCircle size={25} /></button>
+                      </a>
+                      <a style={{ 'textDecoration': 'none' }} href="https://drive.google.com/file/d/18EWzE13DXQ5mF_BBlJvc2aLprijNHl5O/view?usp=drivesdk" target="_blank" rel="noreferrer">
+                        <button>Sponsors Brochure<ArrowRightCircle size={25} /></button>
+                      </a>
+                    </div>
+                  {/* </div> */}
+                </div>}
             </TrackVisibility>
           </Col>
           <Col xs={12} md={6} xl={5}>
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img src={headerImg} alt="Header Img"/>
+                  <img src={headerImg} alt="Header Img" />
                 </div>}
             </TrackVisibility>
           </Col>

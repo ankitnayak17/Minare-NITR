@@ -307,6 +307,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .banner img {
   animation: updown 3s linear infinite;
+  margin-top: -4rem;
+  width: 100%;
 }
 @keyframes updown {
     0% {
@@ -340,6 +342,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     padding-top: 100px;
     transition: all 0.3s ease-in;
   }
+  .banner img{
+     z-index: -1;
+    margin-top: 4rem;
+  }
 }
 
 
@@ -352,7 +358,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background: linear-gradient(87.4deg, rgb(78, 56, 56) 1.9%, rgb(200, 125, 76) 49.7%, rgb(83, 54, 54) 100.5%);
 }
 .skill-bx {
-  background: #151515;
+  background: linear-gradient(87.4deg, rgba(170, 14, 14, 0.566) 1.9%, rgb(200, 125, 76) 49.7%, rgba(170,14,14,0.566) 100.5%);
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
@@ -753,16 +759,31 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-left: 300px;
   margin-top: -70px;
 }
+.contact-name #name3{
+  margin-left: 170px;
+ 
+  
+}
+.contact-us h2{
+  color: #000;
+  font-weight: bolder;
+}
 
 .contact-detail h3{
   display: flex;
   width: 200%;
 }
+#name1 h3{
+ margin-left: 2rem ;
+}
+#name3 h3{
+  margin-left: -5rem;
+}
 #name1 span{
   margin-right: 250px;
 }
 #name3 span{
-  margin-right: 250px;
+  margin-right: 110px;
 }
 @media screen and (max-width: 500px) {
   .footer .contact-detail{ 
@@ -773,9 +794,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     margin: 0px;
     width: 100%;
   }
+ 
   
   .contact-detail .contact-name div{
-    margin: 0 0.4rem !important;
+    margin: 0 1rem 0 6rem !important;
     float: left;
     width: calc(48% - 0.4rem);
     font-size: 1rem;
@@ -784,7 +806,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   .contact-detail .contact-name div h3{
     /* width: 50%; */
     justify-content: center;
-    width: 100%;
+    width: 120%;
   }
   .contact-detail .contact-name div span{
     margin: 0 !important;
@@ -803,8 +825,25 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     margin: 0 auto;
   }
   .contact-us h2{
-    margin: 0 auto;
+    margin: 0 auto ;
   }
+}
+
+@media screen and (min-width: 300px){
+  #name1 h3{
+    margin-left: -1.2rem;
+  }
+  #name2 h3{
+    margin-left: -1.5rem;
+  }
+  #pub h2{
+    margin-right: -2.9rem;
+    margin-left: -3rem;
+  }
+  #name3 h3{
+    margin-left: -1.2rem;
+  }
+
 }
 
 /* ---**team**--- */
@@ -1120,7 +1159,7 @@ height: 130px;
 
 @media screen and (max-width: 1000px) {
   .spon-card {
-    width: 40%;
+    width: 60%;
   }
 }
 
@@ -1388,7 +1427,7 @@ grid-auto-columns: calc(33.3333% - 13.3333px);
   padding: 15px 0 0 35px;
 }
 .spon-n-slider{
-  width: 20rem;
+  width: 18rem;
 }
 .spon-grid{
  
