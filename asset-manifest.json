@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Minare-NITR/static/css/main.4954009b.css",
+    "main.css": "/Minare-NITR/static/css/main.66c6f349.css",
     "main.js": "/Minare-NITR/static/js/main.4c9b0b18.js",
     "static/js/787.13b41dd1.chunk.js": "/Minare-NITR/static/js/787.13b41dd1.chunk.js",
     "static/media/Reshab.JPG": "/Minare-NITR/static/media/Reshab.5c95249a429f229f73f5.JPG",
@@ -67,12 +67,12 @@
     "index.html": "/Minare-NITR/index.html",
     "static/media/nav-icon1.svg": "/Minare-NITR/static/media/nav-icon1.dff40ae802524d8fc0cbce3f312abe4f.svg",
     "static/media/nav-icon2.svg": "/Minare-NITR/static/media/nav-icon2.a39f0e5e47e442dafcc5c9c320f19f6f.svg",
-    "main.4954009b.css.map": "/Minare-NITR/static/css/main.4954009b.css.map",
+    "main.66c6f349.css.map": "/Minare-NITR/static/css/main.66c6f349.css.map",
     "main.4c9b0b18.js.map": "/Minare-NITR/static/js/main.4c9b0b18.js.map",
     "787.13b41dd1.chunk.js.map": "/Minare-NITR/static/js/787.13b41dd1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4954009b.css",
+    "static/css/main.66c6f349.css",
     "static/js/main.4c9b0b18.js"
   ]
 }
