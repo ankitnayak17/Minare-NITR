@@ -83,7 +83,9 @@ function Sponsors() {
           <h1 className="spon-n-title">PAST SPONSORS</h1>
           <div className="spon-n-content">
             <div className="spon-n-head">
-            We would like to sincerely thank our previous sponsors for their kind assistance and contribution to the achievement of our MINARE. We appreciate you for supporting us and believing in our mission.
+              <p>
+                We would like to sincerely thank our previous sponsors for their kind assistance and contribution to the achievement of our MINARE. We appreciate you for supporting us and believing in our mission.
+                </p>
             </div>
            
           </div>
