@@ -1400,7 +1400,7 @@ grid-auto-columns: calc(33.3333% - 13.3333px);
 .spon-n-imd,
 .spon-n-head{
   margin: 1rem auto;
-  width: 95%;
+  width: 100%;
 }
 .spon-n-imd>img{
   margin: 0;
@@ -1413,7 +1413,10 @@ grid-auto-columns: calc(33.3333% - 13.3333px);
 }
 .spon-n-content p{
   display: block;
-  width: 40rem;
+  width: 100%;
+  line-break: anywhere;
+  list-style:georgian;
+  font-size: x-large;
 }
 /* .spon-n-content img{
   margin-top: 1rem;
