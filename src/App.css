@@ -358,7 +358,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background: linear-gradient(87.4deg, rgb(78, 56, 56) 1.9%, rgb(200, 125, 76) 49.7%, rgb(83, 54, 54) 100.5%);
 }
 .skill-bx {
-  background: #151515;
+  background: linear-gradient(87.4deg, rgba(170, 14, 14, 0.566) 1.9%, rgb(200, 125, 76) 49.7%, rgba(170,14,14,0.566) 100.5%);
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
