@@ -41,7 +41,7 @@ function VideoCarousel() {
 
   return (
     <>
-      <Carousel activeIndex={index} onSelect={handleSelect}>
+      <Carousel activeIndex={index} onSelect={handleSelect} indicators={false} pause="hover">
         {videoProperties.map((videoObj) => {
           return (
             <Carousel.Item key={videoObj.id}>
