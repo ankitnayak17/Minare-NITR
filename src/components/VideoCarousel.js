@@ -41,6 +41,8 @@ function VideoCarousel() {
                 //   width="70%"
                   pip={true}
                   controls={true}
+                  loop={false}
+                  muted={false}
                   // playing={false}
                 />
               </div>
