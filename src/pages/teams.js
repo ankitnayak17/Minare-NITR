@@ -39,7 +39,7 @@ function Section1(){
     var PersonData = [{'Name':'Amit Kumar Gorai', 'Designation': 'President', 'Image': image1},{'Name':'Himanshu Bhushan Sahu', 'Designation': 'Advisor', 'Image': image3}, {'Name':'R.M. Biswal', 'Designation': 'Treasurer', 'Image': image2}]
     var PersonData2 = [ {'Name':'Rajesh Mishra', 'Designation': 'Vice President', 'Image': image11}, {'Name':'Deepak Anand', 'Designation': 'General Secretary', 'Image': image4}, {'Name':'Binayak Sahu', 'Designation': 'General Secretary', 'Image': image5},  {'Name':'Aporanta Mukhopadhyay', 'Designation': 'Cultural Secretary', 'Image': image10}, {'Name':'Agam Jeswani', 'Designation': 'Literary Secretary', 'Image': image7}, {'Name':'A.K. Rawat', 'Designation': 'Sports  Secretary', 'Image': image8}, {'Name':'Anurag Roy', 'Designation': 'Joint Secretary', 'Image': image9}]
     var PersonData3 = [ {'Name':'Deepak Vaishay', 'Designation': 'Technical Head', 'Image': image6}, {'Name':'Reshab Kumar Sharma', 'Designation': 'Technical Head', 'Image': image12}, {'Name':'Ritik Sharma', 'Designation': 'Event Management', 'Image': image13},  {'Name':'Rajhans Kumar', 'Designation': 'Event Management', 'Image': image14}, {'Name':'Anand Kumar', 'Designation': 'Event Management', 'Image': image15}, {'Name':'Biswajit Sahoo', 'Designation': 'Event Management', 'Image': image16}, {'Name':'Ashesh Kumar Pradhan', 'Designation': 'Design & Decoration', 'Image': image17}, {'Name':'Dhanu Murmu', 'Designation': 'Design & Decoration', 'Image': image18},{'Name':'Sabyasachi Naik', 'Designation': 'Accomodation', 'Image': image19}, {'Name':'Angidi Srujan', 'Designation': 'Accomodation', 'Image': image20}, {'Name':'Aryaman Biswal', 'Designation': 'Sponsorship', 'Image': image21}, {'Name':'Biswojeet Behera', 'Designation': 'Sponsorship', 'Image': image22}, {'Name':'Pranav Kumar Mishra', 'Designation': 'Sponsorship', 'Image': image23}, {'Name':'Shubham Bhargav', 'Designation': 'Content', 'Image': image24}, {'Name':'Abhay Khatavakar', 'Designation': 'Database', 'Image': image25}, {'Name':'Sekh Faizanul Haq', 'Designation': 'Publicity', 'Image': image26}, {'Name':'Saksham Raj', 'Designation': 'Requirement', 'Image': image27}]
-    var PersonData4 = [{'Name':'Aman Raj', 'Designation': 'Co-ordinator', 'Image': image28},{'Name':'Prateek Gupta', 'Designation': 'Co-ordinator', 'Image': image29}, {'Name':'Anushray Jain', 'Designation': 'Co-ordinator', 'Image': image30}, {'Name':'Ankit Kumar Naik', 'Designation': 'Co-ordinator', 'Image': image31}]
+    var PersonData4 = [{'Name':'Aman Raj', 'Designation': 'Technical Co-ordinator', 'Image': image28},{'Name':'Prateek Gupta', 'Designation': 'Technical Co-ordinator', 'Image': image29}, {'Name':'Anushray Jain', 'Designation': 'Technical Co-ordinator', 'Image': image30}]
 
     function Person(){
         var list = []
@@ -281,7 +281,7 @@ function Section1(){
             </div>
             <div className='head'>
                 <h2>
-                   TECHNICAL CO-ORDINATOR
+                    CO-ORDINATOR
                 </h2>
             </div>
             <div className='body'>

@@ -773,8 +773,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: flex;
   width: 200%;
 }
+#name1 h3{
+ margin-left: 2rem ;
+}
 #name3 h3{
-  margin-left: -1rem;
+  margin-left: -5rem;
 }
 #name1 span{
   margin-right: 250px;
@@ -824,6 +827,23 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   .contact-us h2{
     margin: 0 auto ;
   }
+}
+
+@media screen and (min-width: 300px){
+  #name1 h3{
+    margin-left: -1.2rem;
+  }
+  #name2 h3{
+    margin-left: -1.5rem;
+  }
+  #pub h2{
+    margin-right: -2.9rem;
+    margin-left: -3rem;
+  }
+  #name3 h3{
+    margin-left: -1.2rem;
+  }
+
 }
 
 /* ---**team**--- */
