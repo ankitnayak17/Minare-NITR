@@ -33,6 +33,12 @@ function VideoCarousel() {
       src2: "https://res.cloudinary.com/dlvmyc0x3/image/upload/v1679325717/274777655_100542415907953_1877114561174669634_n_wamkuk.jpg",
       src3: "https://res.cloudinary.com/dlvmyc0x3/image/upload/v1679334667/minquiz.9b28a020e5e721f8f258_ain06j.jpg"
     },
+    {
+      id: 4,
+      src3: "https://res.cloudinary.com/dlvmyc0x3/image/upload/v1679334571/placemantra1.c6c4ca23402847dc6710_yizwnd.jpg",
+      src2: "https://res.cloudinary.com/dlvmyc0x3/image/upload/v1679325717/274777655_100542415907953_1877114561174669634_n_wamkuk.jpg",
+      src: "https://res.cloudinary.com/dlvmyc0x3/image/upload/v1679334667/minquiz.9b28a020e5e721f8f258_ain06j.jpg"
+    }
   ];
 
   useEffect(() => {
