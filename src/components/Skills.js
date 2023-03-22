@@ -36,7 +36,7 @@ export const Skills = () => {
         <div className="row">
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
-              <h2>Past Events</h2>
+              <h2>Pre Events</h2>
 
               {/* <Carousel
                 responsive={responsive}
