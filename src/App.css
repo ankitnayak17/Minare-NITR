@@ -519,7 +519,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .btn  {
  
-  margin: 20px 0 0 35rem;
+ display: flex;
+ justify-content: center ;
+ align-items: end;
+ margin-left: 10rem;
+ margin-top: 5rem;
   
    border: none;
    
@@ -541,7 +545,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   line-height: 1;
   list-style: none;
   overflow: hidden;
-  padding-left: 16px;
+  padding-left: 36px;
   padding-right: 16px;
   position: relative;
   text-align: left;
@@ -568,7 +572,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
  @media screen and (max-width: 500px){
 
   .btn {
-    margin: 20px 0 0 6rem;
+    margin: 20px 0 0 4rem;
   
    border: none;
   }
@@ -786,6 +790,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-right: 110px;
 }
 @media screen and (max-width: 500px) {
+  .spon-grid1{
+  
+    display: grid;
+    grid-template-columns: repeat(1, calc(83.3333% - 113.3333px));
+    margin-left: -5rem;
+  grid-auto-columns: calc(33.3333% - 13.3333px);
+  
+  }
   .footer .contact-detail{ 
     margin: 0;
     padding: 0 4px;
@@ -1331,6 +1343,24 @@ height: 10px;
   
 grid-auto-columns: calc(33.3333% - 13.3333px);
 
+}
+.spon-grid1{
+  
+  display: grid;
+  grid-template-columns: repeat(2, calc(83.3333% - 113.3333px));
+  margin-left: 5rem;
+grid-auto-columns: calc(33.3333% - 13.3333px);
+
+}
+.spon-n-slide1 {
+ 
+  
+  padding: 15px;
+}
+.spon-n-slide2 {
+ 
+  
+  padding: 45px;
 }
 .spon-pad{
   padding: 10px;

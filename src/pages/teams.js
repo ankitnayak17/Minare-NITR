@@ -29,6 +29,9 @@ import image28 from '../images/Aman.JPG'
 import image29 from '../images/PRATEEK.jpg'
 import image30 from '../images/Anushray.jpg'
 import image31 from '../images/Ankit.jpeg'
+import image32 from '../images/SIBASANKAR MISHRA.jpg'
+import image33 from '../images/Pratyush Ranjan Nath.jpg'
+import image34 from '../images/Prabhat Kumar Sahoo.jpg'
 
 import GoToTop from '../GoToTop'
 
@@ -40,6 +43,7 @@ function Section1(){
     var PersonData2 = [ {'Name':'Rajesh Mishra', 'Designation': 'Vice President', 'Image': image11}, {'Name':'Deepak Anand', 'Designation': 'General Secretary', 'Image': image4}, {'Name':'Binayak Sahu', 'Designation': 'General Secretary', 'Image': image5},  {'Name':'Aporanta Mukhopadhyay', 'Designation': 'Cultural Secretary', 'Image': image10}, {'Name':'Agam Jeswani', 'Designation': 'Literary Secretary', 'Image': image7}, {'Name':'A.K. Rawat', 'Designation': 'Sports  Secretary', 'Image': image8}, {'Name':'Anurag Roy', 'Designation': 'Joint Secretary', 'Image': image9}]
     var PersonData3 = [ {'Name':'Deepak Vaishay', 'Designation': 'Technical Head', 'Image': image6}, {'Name':'Reshab Kumar Sharma', 'Designation': 'Technical', 'Image': image12}, {'Name':'Ritik Sharma', 'Designation': 'Event Management', 'Image': image13},  {'Name':'Rajhans Kumar', 'Designation': 'Event Management', 'Image': image14}, {'Name':'Anand Kumar', 'Designation': 'Event Management', 'Image': image15}, {'Name':'Biswajit Sahoo', 'Designation': 'Event Management', 'Image': image16}, {'Name':'Ashesh Kumar Pradhan', 'Designation': 'Design & Decoration', 'Image': image17}, {'Name':'Dhanu Murmu', 'Designation': 'Design & Decoration', 'Image': image18},{'Name':'Sabyasachi Naik', 'Designation': 'Accomodation', 'Image': image19}, {'Name':'Angidi Srujan', 'Designation': 'Accomodation', 'Image': image20}, {'Name':'Aryaman Biswal', 'Designation': 'Sponsorship', 'Image': image21}, {'Name':'Biswojeet Behera', 'Designation': 'Sponsorship', 'Image': image22}, {'Name':'Pranav Kumar Mishra', 'Designation': 'Sponsorship', 'Image': image23}, {'Name':'Shubham Bhargav', 'Designation': 'Content', 'Image': image24}, {'Name':'Abhay Khatavakar', 'Designation': 'Database', 'Image': image25}, {'Name':'Sekh Faizanul Haq', 'Designation': 'Publicity', 'Image': image26}, {'Name':'Saksham Raj', 'Designation': 'Requirement', 'Image': image27}]
     var PersonData4 = [{'Name':'Aman Raj', 'Designation': 'Technical Co-ordinator', 'Image': image28},{'Name':'Prateek Gupta', 'Designation': 'Technical Co-ordinator', 'Image': image29}, {'Name':'Anushray Jain', 'Designation': 'Technical Co-ordinator', 'Image': image30}]
+    var PersonData5 = [{'Name':'Sibasankar Mishra', 'Designation': 'Mentor', 'Image': image32},{'Name':'Pratyush Ranjan Nath', 'Designation': 'Mentor', 'Image': image33}, {'Name':'Prabhat Kumar Sahoo', 'Designation': 'Mentor', 'Image': image34}]
 
     function Person(){
         var list = []
@@ -248,6 +252,58 @@ function Section1(){
         })
         return (<>{list}</>)
     }
+    function Person5(){
+        var list = []
+        PersonData5.forEach((element, i)=>{
+            if(element.links){
+                list.push(
+                    <div className="team-card" key={i}>
+                        <div className="team-card-face">
+                            <img className='team-card-face-img' src={element.Image} alt={`Img-${element.Name}`}></img>
+                            <div className="team-card-face-text">
+                                {element['Name']}
+                            </div>
+                        </div>
+                        <div className="team-card-body">
+                            <div className='team-card-body-text'>
+                                {element['Name']}
+                            </div>
+                            <div className='team-card-body-text'>
+                                {element['Designation']}
+                            </div>
+                            <div className='team-card-body-text'>
+                                <a href={element.links.mail}>
+                                    <i className='fa fa-envelope '></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                )
+            }
+            else{
+                list.push(
+                    <div className="team-card" key={i}>
+                        <div className="team-card-face">
+                            <img className='team-card-face-img' src={element.Image} alt={`Img-${element.Name}`}></img>
+                            <div className="team-card-face-text">
+                                {element['Name']}
+                            </div>
+                        </div>
+                        <div className="team-card-body">
+                            <div className='team-card-body-text'>
+                                {element['Name']}
+                            </div>
+                            <div className='team-card-body-text'>
+                                {element['Designation']}
+                            </div>
+                        </div>
+                    </div>
+                )
+            }
+        })
+        return (<>{list}</>)
+    }
+    
     
     return (
         <>
@@ -272,6 +328,15 @@ function Section1(){
             </div>
             <div className='head'>
                 <h2>
+                   MENTOR
+                </h2>
+            </div>
+            <div className='body'>
+                <Person5></Person5>
+                
+            </div>
+            <div className='head'>
+                <h2>
                    CORE TEAM
                 </h2>
             </div>
@@ -292,7 +357,6 @@ function Section1(){
         </>
     )
 } 
-
 
 
 
