@@ -110,10 +110,7 @@ export const Projects = () => {
             </TrackVisibility>
           </Col>
         </Row>
-        <div className="btn">
-          
-<button role="button" class="button-name">Register Here</button>
-        </div>
+        
       </Container>
       <img className="background-image-right" src={colorSharp2} alt={colorSharp2}></img>
     </section>
